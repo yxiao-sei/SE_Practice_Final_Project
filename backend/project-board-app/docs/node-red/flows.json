@@ -1,0 +1,566 @@
+[
+    {
+        "id": "5e5ec8d76c6a566b",
+        "type": "tab",
+        "label": "研究生院-strapi修改回调",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3c4d96fa6f6dee16",
+        "type": "http in",
+        "z": "5e5ec8d76c6a566b",
+        "name": "",
+        "url": "/yjsy/strapi",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 220,
+        "y": 360,
+        "wires": [
+            [
+                "d528980576138639",
+                "4628529b6d0668e8",
+                "444193b896184bf2"
+            ]
+        ]
+    },
+    {
+        "id": "d528980576138639",
+        "type": "debug",
+        "z": "5e5ec8d76c6a566b",
+        "name": "debug 183",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "7c931d8662711243",
+        "type": "http response",
+        "z": "5e5ec8d76c6a566b",
+        "name": "auto response",
+        "statusCode": "",
+        "headers": {},
+        "x": 450,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "4628529b6d0668e8",
+        "type": "function",
+        "z": "5e5ec8d76c6a566b",
+        "name": "RestResponse",
+        "func": "var response = {};\nresponse.code = 0;\nresponse.message = 'ok';\nresponse.result = {};\nmsg.payload = response;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 260,
+        "wires": [
+            [
+                "7c931d8662711243"
+            ]
+        ]
+    },
+    {
+        "id": "444193b896184bf2",
+        "type": "function",
+        "z": "5e5ec8d76c6a566b",
+        "name": "function 57",
+        "func": "msg.base_url = 'http://192.168.1.7:1397';\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 300,
+        "wires": [
+            [
+                "a717c2ab3644c7cb"
+            ]
+        ]
+    },
+    {
+        "id": "a717c2ab3644c7cb",
+        "type": "switch",
+        "z": "5e5ec8d76c6a566b",
+        "name": "switch-model",
+        "property": "payload.model",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "administrator",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "summary-performance",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 470,
+        "y": 360,
+        "wires": [
+            [
+                "bb5d13fe255d8873"
+            ],
+            [
+                "ad1c2dde11ca3777"
+            ]
+        ]
+    },
+    {
+        "id": "bb5d13fe255d8873",
+        "type": "switch",
+        "z": "5e5ec8d76c6a566b",
+        "name": "administrator",
+        "property": "payload.event",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "entry.create",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "entry.update",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "entry.delete",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 640,
+        "y": 200,
+        "wires": [
+            [
+                "2499a6c64055b03b"
+            ],
+            [
+                "2499a6c64055b03b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "2499a6c64055b03b",
+        "type": "function",
+        "z": "5e5ec8d76c6a566b",
+        "name": "抛出消息",
+        "func": "//{ \"event\": \"entry.create\", \"createdAt\": \"2023-11-06T07:31:10.481Z\", \"model\": \"administrator\", \"uid\": \"api::administrator.administrator\", \"entry\": { \"id\": 10, \"name\": \"20129526\", \"number\": \"20129526\", \"roles\": \"role_system\", \"state\": null, \"disabled\": true, \"departmentName\": \"\", \"departmentCode\": \"\", \"createdAt\": \"2023-11-06T07:31:10.447Z\", \"updatedAt\": \"2023-11-06T07:31:10.447Z\", \"publishedAt\": \"2023-11-06T07:31:10.442Z\", \"authenticationMethods\": null } }\nmsg.payload = {\n    'username': msg.payload.entry.number,\n    'name': msg.payload.entry.name,\n    'roles': msg.payload.entry.roles,\n    'departmentName': msg.payload.entry.departmentName,\n    'subDepartmentName': msg.payload.entry.subDepartmentName,\n    'subDepartmentCode': msg.payload.entry.subDepartmentCode,\n    'departmentId': msg.payload.entry.departmentId,\n    'authenticationMethods': msg.payload.entry.authenticationMethods,\n    'creator': '20230086',\n    'password': msg.payload.entry.password,\n    'roleCover': true\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 200,
+        "wires": [
+            [
+                "9676f416c3692c5e",
+                "f871134560f7a6de"
+            ]
+        ]
+    },
+    {
+        "id": "9676f416c3692c5e",
+        "type": "amqp-out",
+        "z": "5e5ec8d76c6a566b",
+        "name": "抛出消息",
+        "broker": "f3340a6cdd797d3e",
+        "exchangeName": "topic.new_users",
+        "exchangeType": "topic",
+        "exchangeRoutingKey": "",
+        "exchangeRoutingKeyType": "str",
+        "exchangeDurable": true,
+        "amqpProperties": "{ \"headers\": {} }",
+        "rpcTimeoutMilliseconds": 3000,
+        "outputs": 0,
+        "x": 1070,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "f871134560f7a6de",
+        "type": "debug",
+        "z": "5e5ec8d76c6a566b",
+        "name": "debug 184",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "ce8ba943a283fb77",
+        "type": "debug",
+        "z": "5e5ec8d76c6a566b",
+        "name": "debug 185",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1230,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "95c47234b89f719d",
+        "type": "function",
+        "z": "5e5ec8d76c6a566b",
+        "name": "封装查询参数",
+        "func": "var username = msg.payload.entry.number;\nvar departmentName = msg.payload.entry.departmentName;\nvar queryString = \"filters[username][$eq]=\" + username + \"&sort=updatedAt:asc&pagination[page]=1&pagination[pageSize]=10\";\nmsg.queryString = queryString;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 240,
+        "wires": [
+            [
+                "992d3f98e85d6c60",
+                "32e62dc39d72f086"
+            ]
+        ]
+    },
+    {
+        "id": "992d3f98e85d6c60",
+        "type": "debug",
+        "z": "5e5ec8d76c6a566b",
+        "name": "debug 186",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "32e62dc39d72f086",
+        "type": "http request",
+        "z": "5e5ec8d76c6a566b",
+        "name": "查询用户",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "{{{base_url}}}/api/custom-userdetails?{{{queryString}}}",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1100,
+        "y": 240,
+        "wires": [
+            [
+                "0c1ff78a36280e64"
+            ]
+        ]
+    },
+    {
+        "id": "0c1ff78a36280e64",
+        "type": "function",
+        "z": "5e5ec8d76c6a566b",
+        "name": "封装id",
+        "func": "var data = msg.payload.data[0];\nmsg.id = data.id;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 240,
+        "wires": [
+            [
+                "d5356d539726b088",
+                "045f2ab610cc6463"
+            ]
+        ]
+    },
+    {
+        "id": "d5356d539726b088",
+        "type": "http request",
+        "z": "5e5ec8d76c6a566b",
+        "name": "删除用户",
+        "method": "DELETE",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "{{{base_url}}}/api/custom-userdetails/{{{id}}}",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1400,
+        "y": 240,
+        "wires": [
+            [
+                "b9993bfcab2cd9b1"
+            ]
+        ]
+    },
+    {
+        "id": "b9993bfcab2cd9b1",
+        "type": "debug",
+        "z": "5e5ec8d76c6a566b",
+        "name": "debug 187",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1570,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "045f2ab610cc6463",
+        "type": "debug",
+        "z": "5e5ec8d76c6a566b",
+        "name": "debug 188",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1390,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "ad1c2dde11ca3777",
+        "type": "switch",
+        "z": "5e5ec8d76c6a566b",
+        "name": "summary-performances",
+        "property": "payload.event",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "entry.update",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 710,
+        "y": 360,
+        "wires": [
+            [
+                "a1f2a51d0f161640"
+            ]
+        ]
+    },
+    {
+        "id": "9d3b46a640de242c",
+        "type": "function",
+        "z": "5e5ec8d76c6a566b",
+        "name": "封装id",
+        "func": "var data = msg.payload.data;\nvar result  = msg.result;\nresult.type = \"1\";\nvar rqs = {\n    data:result\n}\ndata.forEach(temp=> {\n    msg.id = temp.id;\n    rqs.data.id = temp.id;\n    msg.payload = rqs;\n    node.send(msg);\n});\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1350,
+        "y": 360,
+        "wires": [
+            [
+                "2118de6a0b58676e"
+            ]
+        ]
+    },
+    {
+        "id": "2118de6a0b58676e",
+        "type": "http request",
+        "z": "5e5ec8d76c6a566b",
+        "name": "修改数据院系数据",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "{{{base_url}}}/api/summary-performances/{{{id}}}",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1570,
+        "y": 360,
+        "wires": [
+            [
+                "f52d61d458c79c91"
+            ]
+        ]
+    },
+    {
+        "id": "f52d61d458c79c91",
+        "type": "debug",
+        "z": "5e5ec8d76c6a566b",
+        "name": "debug 193",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1790,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "a1f2a51d0f161640",
+        "type": "switch",
+        "z": "5e5ec8d76c6a566b",
+        "name": "",
+        "property": "payload.entry.type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 870,
+        "y": 420,
+        "wires": [
+            [
+                "fcfda8bcf8dd7b8b"
+            ]
+        ]
+    },
+    {
+        "id": "fcfda8bcf8dd7b8b",
+        "type": "function",
+        "z": "5e5ec8d76c6a566b",
+        "name": "封装查询参数",
+        "func": "var departmentName = msg.payload.entry.departmentName;\nmsg.result = msg.payload.entry;\nvar queryString = \"filters[departmentName][$eq]=\" + departmentName + \"&sort=updatedAt:asc&pagination[page]=1&pagination[pageSize]=10&filters[type][$eq]=1\";\nmsg.queryString = queryString;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 360,
+        "wires": [
+            [
+                "175c34b522101025",
+                "07526f89bdca91b5"
+            ]
+        ]
+    },
+    {
+        "id": "175c34b522101025",
+        "type": "http request",
+        "z": "5e5ec8d76c6a566b",
+        "name": "查询用户",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "{{{base_url}}}/api/summary-performances?{{{queryString}}}",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1180,
+        "y": 360,
+        "wires": [
+            [
+                "9d3b46a640de242c",
+                "07526f89bdca91b5"
+            ]
+        ]
+    },
+    {
+        "id": "07526f89bdca91b5",
+        "type": "debug",
+        "z": "5e5ec8d76c6a566b",
+        "name": "debug 194",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1330,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "f3340a6cdd797d3e",
+        "type": "amqp-broker",
+        "name": "yjsy",
+        "host": "192.168.1.7",
+        "port": "5672",
+        "vhost": "yjsyxt",
+        "tls": false,
+        "credsFromSettings": false
+    }
+]

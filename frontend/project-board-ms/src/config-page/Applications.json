@@ -1,0 +1,143 @@
+{
+  "pageButtons": [
+    {
+      "label": "添加",
+      "command": "Add",
+      "privilege": "add",
+      "attributes": {
+        "type": "primary"
+      },
+      "isCollapse": false,
+      "resourceId": ""
+    }
+  ],
+  "tableButtons": [
+    {
+      "label": "审批",
+      "command": "Approve",
+      "privilege": "",
+      "attributes": {
+        "type": "warning"
+      },
+      "isCollapse": false,
+      "resourceId": ""
+    },
+    {
+      "label": "编辑",
+      "command": "Edit",
+      "privilege": "",
+      "attributes": {
+        "type": "info"
+      },
+      "isCollapse": false,
+      "resourceId": ""
+    },
+    {
+      "label": "删除",
+      "command": "Delete",
+      "privilege": "delete",
+      "attributes": {
+        "size": "default",
+        "type": "danger"
+      },
+      "isCollapse": false,
+      "resourceId": ""
+    }
+  ],
+  "searchForm": [
+    {
+      "span": 3,
+      "label": "搜索姓名",
+      "className": "",
+      "optionKey": "",
+      "paramsKey": "filters[studentName][$contains]",
+      "attributes": {
+        "size": "large",
+        "clearable": true
+      },
+      "elementType": "Input",
+      "defaultValue": ""
+    }
+  ],
+  "columns": [
+    {
+      "align": "center",
+      "field": "studentNumber",
+      "title": "学号",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "studentName",
+      "title": "姓名",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "studentTelephone",
+      "title": "电话",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "studentEmail",
+      "title": "邮箱",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "projectName",
+      "title": "应聘课题名称"
+    },
+    {
+      "align": "center",
+      "field": "projectCode",
+      "title": "应聘课题编号"
+    },
+    {
+      "align": "center",
+      "field": "projectRescuitRole",
+      "title": "应聘课题分工",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "state",
+      "title": "应聘审核状态",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "selfRecommendContent",
+      "title": "自我推荐",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "attachments",
+      "title": "附件",
+      "min-width": 100,
+      "slots": {
+        "default": "attachment"
+      }
+    },
+    {
+      "align": "center",
+      "field": "approvalMessage",
+      "title": "审批理由",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "table_action_slot_default",
+      "slots": {
+        "default": "table_action_slot_default"
+      },
+      "title": "操作",
+      "minWidth": 240
+    }
+  ],
+  "name": "Appointment",
+  "defaultParams": "",
+  "apiPath": "/project-board-api/board/strapi/api/project-recruit-applications"
+}

@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: ecnu-auth-server
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 200MB
+      max-request-size: 200MB
+
+server:
+  max-http-header-size: 10000000
+  tomcat:
+    threads:
+      min-spare: 100
+      max: 600
+    accept-count: 1000
+    max-connections: 10000
+
+initialzation:
+  file:
+    users: users.json
+    roles: roles-sei-approval.json

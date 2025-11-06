@@ -1,0 +1,26 @@
+@use "../assets/theme/baseVars" as BaseVars;
+@use "vxe-table/styles/variable.scss" as vxe_table_variable with (
+  $vxe-table-border-color: BaseVars.$default-border-color,
+  $vxe-table-border-radius: 0,
+  $vxe-table-row-height-default: BaseVars.$table-row-height-default,
+  $vxe-table-header-background-color: BaseVars.$table-header-background-color,
+  $vxe-table-header-font-color: BaseVars.$table-header-font-color,
+  $vxe-table-header-font-weight: bold,
+  $vxe-primary-color: BaseVars.$primary,
+  $vxe-font-color: BaseVars.$table-font-color,
+  $vxe-font-size: BaseVars.$table-font-size,
+  $vxe-table-column-padding-default: 9px 0,
+  $vxe-table-column-icon-border-color: rgba(2, 28, 93, 0.3)
+);
+@use "vxe-table/styles/all.scss" as vxe_table_all;
+
+.vxe-header--column {
+  font-size: var(--el-font-size-base);
+}
+.vxe-pager {
+  height: unset;
+  padding-top: 10px;
+}
+.is--sortable .vxe-cell {
+  line-height: 25px;
+}

@@ -1,0 +1,125 @@
+{
+  "pageButtons": [],
+  "tableButtons": [
+    {
+      "label": "审批",
+      "command": "Approve",
+      "privilege": "",
+      "attributes": {
+        "type": "warning"
+      },
+      "isCollapse": false,
+      "resourceId": ""
+    },
+    {
+      "label": "删除",
+      "command": "Delete",
+      "privilege": "delete",
+      "attributes": {
+        "size": "default",
+        "type": "danger"
+      },
+      "isCollapse": false,
+      "resourceId": ""
+    }
+  ],
+  "searchForm": [
+    {
+      "span": 3,
+      "label": "搜索姓名",
+      "className": "",
+      "optionKey": "",
+      "paramsKey": "filters[studentName][$contains]",
+      "attributes": {
+        "size": "large",
+        "clearable": true
+      },
+      "elementType": "Input",
+      "defaultValue": ""
+    }
+  ],
+  "columns": [
+    {
+      "align": "center",
+      "field": "studentNumber",
+      "title": "学号",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "studentName",
+      "title": "姓名",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "appointmentDate",
+      "title": "预约日期",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "appointmentTime",
+      "title": "预约时间段",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "campus",
+      "title": "校区"
+    },
+    {
+      "align": "center",
+      "field": "state",
+      "title": "预约状态"
+    },
+    {
+      "align": "center",
+      "field": "address",
+      "title": "详细地址",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "comment",
+      "title": "备注",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "projectName",
+      "title": "应聘课题名称"
+    },
+    {
+      "align": "center",
+      "field": "projectRescuitRole",
+      "title": "应聘岗位名称",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "projectName",
+      "title": "项目名称",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "projectCode",
+      "title": "项目编号",
+      "visible": false,
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "table_action_slot_default",
+      "slots": {
+        "default": "table_action_slot_default"
+      },
+      "title": "操作",
+      "minWidth": 240
+    }
+  ],
+  "name": "Project",
+  "defaultParams": "",
+  "apiPath": "/project-board-api/board/strapi/api/project-recruit-appointments"
+}

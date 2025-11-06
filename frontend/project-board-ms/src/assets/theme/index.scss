@@ -1,0 +1,147 @@
+/*
+ * @Author: laladila1986@163.com
+ * @Date: 2023-08-08 15:49:42
+ * @LastEditors: laladila1986@163.com
+ * @LastEditTime: 2024-01-24 13:11:37
+ * @FilePath: \plms-ms\src\assets\theme\index.scss
+ * @Description:
+ * @Copyright: Copyright 2023, All Rights Reserved.
+ */
+
+@use "./_baseVars.scss" as BaseVars;
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  $colors: (
+    "primary": (
+      "base": BaseVars.$primary,
+    ),
+    "danger": (
+      "base": BaseVars.$danger,
+    ),
+    "info": (
+      "base": BaseVars.$info,
+    ),
+    "success": (
+      "base": BaseVars.$success,
+    ),
+    "warning": (
+      "base": BaseVars.$warning,
+    ),
+  ),
+  $text-color: (
+    "primary": BaseVars.$primary-color,
+    "regular": BaseVars.$regular-color,
+    "main": BaseVars.$main-color,
+    "info": #53595e,
+    "placeholder": BaseVars.$menu-text-color,
+  ),
+  $menu: (
+    "active-color": BaseVars.$menu-item-active-color,
+    "bg-color": BaseVars.$menu-bg-color,
+    "border-color": transparent,
+    "text-color": BaseVars.$menu-text-color,
+    "hover-text-color": BaseVars.$menu-hover-text-color,
+    "hover-bg-color": BaseVars.$menu-hover-bg-color,
+    "icon-width": 16px,
+    "base-level-padding": 17px,
+    "item-font-size": var(--el-font-size-medium),
+    "item-height": BaseVars.$menu-item-height,
+    "sub-item-height": BaseVars.$menu-item-height,
+  ),
+  $dialog: (
+    "padding-primary": BaseVars.$padding-primary,
+  ),
+  $main: (
+    "padding": BaseVars.$main-padding,
+  ),
+  $header: (
+    "padding": BaseVars.$header-padding,
+    "height": 84px,
+  ),
+  $input: (
+    "border-radius": 0,
+  ),
+  $button-border-radius: (
+    "default": 0,
+    "large": 0,
+    "small": 0,
+  ),
+  // $button-padding-vertical: (
+  //   "large": 14px,
+  // ),
+  // $button-font-size: (
+  //   "large": 16px
+  // ),
+  // $common-component-size: (
+  //   "large": 40px,
+  // ),
+  $border-color: (
+    "": BaseVars.$default-border-color,
+    "lighter": BaseVars.$default-border-color,
+    "light": BaseVars.$default-border-color,
+  ),
+  $table: (
+    "header-text-color": BaseVars.$primary,
+    "text-color": "#889199",
+  ),
+  $table-padding: (
+    "default": 5px 0,
+  ),
+  $table-cell-padding: (
+    "default": 0 5px,
+  ),
+  $tag-height: (
+    "large": 32px,
+    "default": 25px,
+    "small": 20px,
+  ),
+  $tag: (
+    "font-size": 14px,
+    "border-radius": 3px,
+  ),
+  $tabs: (
+    "header-height": 53px,
+  ),
+  $badge: (
+    "size": 22px,
+    "font-size": 14px,
+  ),
+  $drawer: (
+    "padding-primary": 20px 38px,
+  ),
+  $select:(
+    'font-size': var(--el-font-size-medium)
+  ),
+  $select-wrapper-padding: (
+    // "large": 7px 16px,
+    // "default": 4px 12px,
+    "small": 2px 8px,
+  ),
+  $font-size: (
+    "large": 18px,
+    "medium": 16px,
+    "base": 14px,
+    "small": 13px,
+    "extra-small": 12px,
+  ),
+  $checkbox: (
+    "font-size": var(--el-font-size-medium),
+    "border-radius": 0,
+    "text-color": var(--el-color-primary)
+  ),
+  $input-font-size: (
+    "large": 16px,
+    "default": 14px,
+    "small": 12px,
+  ),
+  $collapse: (
+    "header-height": 40px,
+    'header-bg-color': BaseVars.$collapse-bg-color,
+    'header-text-color': BaseVars.$collapse-color,
+    "header-font-size": BaseVars.$collapse-fontSize,
+    'content-bg-color': BaseVars.$collapse-content-bg-color,
+    "content-font-size": BaseVars.$collapse-fontSize,
+    'content-text-color': BaseVars.$collapse-color,
+  )
+);
+
+@use "element-plus/theme-chalk/src/index.scss" as *;

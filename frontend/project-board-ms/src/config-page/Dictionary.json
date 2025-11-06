@@ -1,0 +1,143 @@
+  {
+    "tableButtonState": null,
+    "createdAt": "2024-07-04T08:00:54.858Z",
+    "publishedAt": "2024-07-04T08:00:55.900Z",
+    "children": null,
+    "columns": [
+      {
+        "width": 60,
+        "sortable": true,
+        "type": "seq",
+        "align": "center",
+        "title": "序号"
+      },
+      {
+        "field": "category",
+        "sortable": true,
+        "align": "center",
+        "title": "字典类别"
+      },
+      {
+        "field": "name",
+        "sortable": true,
+        "align": "center",
+        "title": "字典名称"
+      },
+      {
+        "field": "description",
+        "sortable": true,
+        "align": "center",
+        "title": "描述"
+      },
+      {
+        "slots": {
+          "default": "jsonData"
+        },
+        "field": "jsonData",
+        "align": "center",
+        "title": "扩展信息"
+      },
+      {
+        "field": "creatorName",
+        "sortable": true,
+        "align": "center",
+        "title": "创建人"
+      },
+      {
+        "formatter": [
+          "dateString",
+          "yyyy-MM-dd HH:ss:mm"
+        ],
+        "field": "createdTime",
+        "sortable": true,
+        "align": "center",
+        "title": "添加时间"
+      },
+      {
+        "slots": {
+          "default": "table_action_slot_default"
+        },
+        "field": "table_action_slot_default",
+        "align": "center",
+        "min-width":80,
+        "title": "操作"
+      }
+    ],
+    "tableButtons": [
+      {
+        "attributes": {
+          "type": "info"
+        },
+        "label": "编辑",
+        "isCollapse": false,
+        "command": "update"
+      },
+      {
+        "attributes": {
+          "type": "danger"
+        },
+        "label": "删除",
+        "isCollapse": false,
+        "command": "delete"
+      }
+    ],
+    "apiPath": "/project-board-api/board/strapi/api/metadatas",
+    "defaultParams": null,
+    "name": "dictionary",
+    "searchForm": [
+      {
+        "optionKey": "",
+        "defaultValue": "",
+        "className": "",
+        "attributes": {
+          "clearable": true,
+          "size": "large"
+        },
+        "label": "搜索字典名称",
+        "paramsKey": "filters[name][$contains]",
+        "elementType": "Input",
+        "span": 3
+      },
+      {
+        "defaultValue": [],
+        "options": [],
+        "attributes": {
+          "filterable": true,
+          "collapseTags": true,
+          "clearable": true,
+          "size": "large",
+          "collapseTagsTooltip": true,
+          "multiple": true
+        },
+        "label": "搜索类别",
+        "paramsKey": "filters[category][$in]",
+        "elementType": "Select",
+        "span": 3,
+        "storeKey": "metadataCategories"
+      }
+    ],
+    "pageButtons": [
+      {
+        "resourceId": "",
+        "attributes": {
+          "type": "primary"
+        },
+        "label": "添加字典",
+        "privilege": "add",
+        "isCollapse": false,
+        "command": "add"
+      },
+      {
+        "resourceId": "",
+        "attributes": {
+          "type": "primary"
+        },
+        "label": "添加类别",
+        "privilege": "add",
+        "isCollapse": false,
+        "command": "addCategory"
+      }
+    ],
+    "updatedAt": "2024-10-24T07:01:48.232Z",
+    "id": 59
+  }

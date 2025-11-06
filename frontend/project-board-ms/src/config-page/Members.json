@@ -1,0 +1,91 @@
+{
+  "pageButtons": [
+    {
+      "label": "邀请学生",
+      "command": "Add",
+      "privilege": "add",
+      "attributes": {
+        "type": "primary"
+      },
+      "isCollapse": false,
+      "resourceId": ""
+    }
+  ],
+  "tableButtons": [
+    {
+      "label": "删除",
+      "command": "Delete",
+      "privilege": "delete",
+      "attributes": {
+        "type": "danger"
+      },
+      "isCollapse": false,
+      "resourceId": ""
+    }
+  ],
+  "searchForm": [
+    {
+      "span": 3,
+      "label": "搜索学号",
+      "className": "",
+      "optionKey": "",
+      "paramsKey": "filters[number][$contains]",
+      "attributes": {
+        "size": "large",
+        "clearable": true
+      },
+      "elementType": "Input",
+      "defaultValue": ""
+    }
+  ],
+  "columns": [
+    {
+      "align": "center",
+      "field": "学生姓名",
+      "title": "学生姓名",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "学号",
+      "title": "学号",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "院系",
+      "title": "院系",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "专业",
+      "title": "专业"
+    },
+    {
+      "align": "center",
+      "field": "分工",
+      "title": "分工",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "加入时间",
+      "title": "加入时间",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "table_action_slot_default",
+      "fixed": "right",
+      "slots": {
+        "default": "table_action_slot_default"
+      },
+      "title": "操作",
+      "minWidth": 80
+    }
+  ],
+  "name": "Members",
+  "defaultParams": "",
+  "apiPath": "/project-board-api/board/strapi/api/projects"
+}

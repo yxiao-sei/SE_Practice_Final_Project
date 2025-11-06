@@ -1,0 +1,524 @@
+{
+  "activityMember": [
+    {
+      "keyValue": "memberXh",
+      "labelName": "学号",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "memberName",
+      "labelName": "姓名",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "memberDepartment",
+      "labelName": "院系",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "memberZy",
+      "labelName": "专业",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "createdTime",
+      "labelName": "报名时间",
+      "dataType": "Long",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "isAchieve",
+      "labelName": "是否完成",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    }
+  ],
+  "approveMember": [
+    {
+      "keyValue": "memberXh",
+      "labelName": "学号",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "memberName",
+      "labelName": "姓名",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "memberDepartment",
+      "labelName": "院系",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "memberZy",
+      "labelName": "专业",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "createdTime",
+      "labelName": "报名时间",
+      "dataType": "Long",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "memberState",
+      "labelName": "报名状态",
+      "dataType": "Long",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "applicationReason",
+      "labelName": "申请理由",
+      "dataType": "Long",
+      "optionType": "input",
+      "options": {}
+    }
+  ],
+  "processMemberView": [
+    {
+      "keyValue": "memberXh",
+      "labelName": "学号",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "memberName",
+      "labelName": "姓名",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "memberDepartment",
+      "labelName": "院系",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "memberZy",
+      "labelName": "专业",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "isRegister",
+      "labelName": "签到",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "processName",
+      "labelName": "阶段",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    }
+  ],
+  "association": [
+    {
+      "keyValue": "name",
+      "labelName": "社团名称",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "campus",
+      "labelName": "校区",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "category",
+      "labelName": "社团类别",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "star",
+      "labelName": "社团星级",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "superiorDepartmentName",
+      "labelName": "业务指导单位",
+      "dataType": "Long",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "studentPresidentName",
+      "labelName": "社长",
+      "dataType": "Long",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "superiorTeacherName",
+      "labelName": "指导老师",
+      "dataType": "Long",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "registerSchoolYear",
+      "labelName": "社团注册学年",
+      "dataType": "Long",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "registerSchoolTerm",
+      "labelName": "社团注册学期",
+      "dataType": "Long",
+      "optionType": "input",
+      "options": {}
+    }
+  ],
+  "associationRecordView": [
+    {
+      "keyValue": "associationName",
+      "labelName": "社团名称",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "number",
+      "labelName": "学号",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "name",
+      "labelName": "姓名",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "entityDepartmentName",
+      "labelName": "实体院系",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "zzmmm",
+      "labelName": "政治面貌",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "yddh",
+      "labelName": "联系方式",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "state",
+      "labelName": "状态",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "registerSchoolYear",
+      "labelName": "注册学年",
+      "dataType": "Long",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "registerSchoolTerm",
+      "labelName": "注册学期",
+      "dataType": "Long",
+      "optionType": "input",
+      "options": {}
+    }
+  ],
+  "studentProject": [
+    {
+      "keyValue": "name",
+      "labelName": "项目名称",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "type",
+      "labelName": "项目类型",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "departmentName",
+      "labelName": "主管单位",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "departmentType",
+      "labelName": "单位类型",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "projectTime",
+      "labelName": "设立日期",
+      "dataType": "long",
+      "optionType": "long",
+      "options": {}
+    },
+    {
+      "keyValue": "xq",
+      "labelName": "有效期限",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    }
+  ],
+  "studentProjectRecordView": [
+    {
+      "keyValue": "number",
+      "labelName": "学号",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "studentName",
+      "labelName": "姓名",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "studentDepartment",
+      "labelName": "管理院系",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "zy",
+      "labelName": "专业",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "grade",
+      "labelName": "年级",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "projectName",
+      "labelName": "项目名称",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "projectType",
+      "labelName": "项目类型",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "departmentName",
+      "labelName": "主管单位",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "departmentType",
+      "labelName": "单位类型",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "xq",
+      "labelName": "持续时间",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "projectTime",
+      "labelName": "项目日期",
+      "dataType": "long",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "registerTime",
+      "labelName": "登记时间",
+      "dataType": "long",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "awardTime",
+      "labelName": "获得日期",
+      "dataType": "long",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "state",
+      "labelName": "记录状态",
+      "dataType": "long",
+      "optionType": "input",
+      "options": {}
+    }
+  ],
+  "studentSummaryView": [
+    {
+      "keyValue": "name",
+      "labelName": "姓名",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "number",
+      "labelName": "学号",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "grade",
+      "labelName": "年级",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "department",
+      "labelName": "院系",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "zy",
+      "labelName": "专业",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "cultivatePlanName",
+      "labelName": "培养方案",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "activtyCount",
+      "labelName": "参加活动次数",
+      "dataType": "int",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "progress",
+      "labelName": "培养方案完成进度",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "result",
+      "labelName": "最终成绩",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    }
+  ],
+  "activityMessage": [
+    {
+      "keyValue": "creator",
+      "labelName": "发送人工号",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "creatorName",
+      "labelName": "发送人姓名",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "createdTime",
+      "labelName": "发送时间",
+      "dataType": "long",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "model",
+      "labelName": "模板",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "content",
+      "labelName": "发送内容",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    },
+    {
+      "keyValue": "count",
+      "labelName": "对象人数",
+      "dataType": "string",
+      "optionType": "input",
+      "options": {}
+    }
+  ]
+}

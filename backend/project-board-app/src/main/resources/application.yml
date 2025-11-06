@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: project-board-app
+  profiles:
+    active: sei
+    multipart:
+      max-request-size: 100MB
+      max-file-size: 100MB
+  mvc:
+    async:
+      request-timeout: 30000
+
+server:
+  port: 8924
+  max-http-header-size: 3000000
+  tomcat:
+    threads:
+      min-spare: 500
+      max: 1500
+    accept-count: 2000
+    max-connections: 15000
+
+config:
+  codeMapper:
+    adminUser: adminUser.json
+    teacherRoles: teacherRoles.json
+    studentRoles: studentRoles.json
+    exportFields: exportFields.json # 可导出的字段信息
+    uploadFile: uploadFile.json # 可上传文件
+    timeConvert: timeConvert.json

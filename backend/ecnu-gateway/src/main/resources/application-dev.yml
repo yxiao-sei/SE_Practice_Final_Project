@@ -1,0 +1,109 @@
+# Define the routes which determine what URL are serviced by what applications.
+# The application/services are defined in the bootstrap.yml file of individual applications
+# using the spring.application.name property.
+
+# Note that we don't proxy the calls to the authorization server. The reason being that
+# Spring cloud security would need to secure the api gateway before it can route the
+# requests using zuul
+zuul:
+#  ignored-services: "*"
+  # zuul默认对转发的request清空header，通过以下配置透传header到后端服务中去，也可以在
+  semaphore:
+    max-semaphores: 6000
+  sensitive-headers:
+  routes:
+    app:
+      path: /app/**
+      service-id: lablink-app
+#      strip-prefix: false
+    auth:
+      path: /auth/**
+      service-id: ecnu-auth-server
+#      url: http://192.168.1.127:8088
+#      strip-prefix: false
+#      url: http://127.0.0.1:8088
+    web-client:
+      path: /web-client/**
+      url: http://192.168.1.195:8080
+    static:
+      path: /js/**
+      service-id: http://127.0.0.1:8002
+      strip-prefix: false
+    message-gateway:
+      path: /msg/**
+      service-id: ecnu-message-gateway
+    strapi:
+      path: /strapi/**
+      service-id: zzbxt-app
+      strip-prefix: false
+    node-red:
+      path: /node-red/**
+      url: http://yourdomain.com/node-red
+
+# 根据service id添加超时及连接配置
+lablink-app:
+  ribbon:
+    ConnectTimeout: 100000
+    ReadTimeout: 100000
+    MaxTotalHttpConnections: 500
+    MaxConnectionsPerHost: 100
+
+# 根据service id添加超时及连接配置
+auth-server:
+  ribbon:
+    ConnectTimeout: 100000
+    ReadTimeout: 100000
+    MaxTotalHttpConnections: 500
+    MaxConnectionsPerHost: 100
+
+message-gateway:
+  ribbon:
+    ConnectTimeout: 100000
+    ReadTimeout: 100000
+    MaxTotalHttpConnections: 500
+    MaxConnectionsPerHost: 100
+
+eureka:
+  client:
+    # 指定是否从注册中心获取服务(注册中心不需要开启)
+    fetch-registry: true
+    # 指定是否将服务注册到注册中心(注册中心不需要开启)
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:9360/eureka
+    eureka-server-read-timeout-seconds: 300
+    #eureka client刷新本地缓存时间
+    #默认30s
+    registryFetchIntervalSeconds: 5
+    #服务过期时间配置,超过这个时间没有接收到心跳EurekaServer就会将这个实例剔除
+    #注意，EurekaServer一定要设置eureka.server.eviction-interval-timer-in-ms否则这个配置无效，这个配置一般为服务刷新时间配置的三倍
+    #默认90s
+  instance:
+    lease-expiration-duration-in-seconds: 15
+    #服务刷新时间配置，每隔这个时间会主动心跳一次
+    #默认30s
+    lease-renewal-interval-in-seconds: 5
+
+ribbon:
+  eureka:
+    enabled: true
+  #eureka客户端ribbon刷新时间
+  #默认30s
+  ServerListRefreshInterval: 5000
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 400000
+
+server:
+  port: 8360
+  tomcat:
+    remote-ip-header: X-Forwarded-For
+    protocol-header: X-Forwarded-Proto
+
+cors:
+  allowedUrl: http://yourdomain.com

@@ -1,0 +1,399 @@
+[
+  {
+    "name": "ROLE_SEI_SYSTEM_ADMIN",
+    "nickname": "系统管理员",
+    "description": "系统管理员用户，系统集成角色，不允许修改！",
+    "builtIn": true,
+    "banned": false,
+    "permissions": [
+      {
+        "resourceId": "system_manager_management",
+        "resourceName": "用户管理",
+        "privilege": "read",
+        "privilegeDescription": "用户管理菜单页面"
+      },
+      {
+        "resourceId": "system_manager_student_management",
+        "resourceName": "用户管理",
+        "privilege": "read",
+        "privilegeDescription": "用户管理"
+      },
+      {
+        "resourceId": "system_manager_student_management",
+        "resourceName": "用户管理",
+        "privilege": "add",
+        "privilegeDescription": "新增管理员"
+      },
+      {
+        "resourceId": "system_manager_student_management",
+        "resourceName": "用户管理",
+        "privilege": "delete",
+        "privilegeDescription": "删除管理员"
+      },
+      {
+        "resourceId": "system_manager_student_management",
+        "resourceName": "用户管理",
+        "privilege": "update",
+        "privilegeDescription": "编辑管理员"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "用户管理",
+        "privilege": "read",
+        "privilegeDescription": "院系用户管理"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "院系用户管理",
+        "privilege": "add",
+        "privilegeDescription": "新增管理员"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "院系用户管理",
+        "privilege": "delete",
+        "privilegeDescription": "删除管理员"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "院系用户管理",
+        "privilege": "update",
+        "privilegeDescription": "编辑管理员"
+      },   {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "用户管理",
+        "privilege": "read",
+        "privilegeDescription": "院系用户管理"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "院系用户管理",
+        "privilege": "add",
+        "privilegeDescription": "新增管理员"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "院系用户管理",
+        "privilege": "delete",
+        "privilegeDescription": "删除管理员"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "院系用户管理",
+        "privilege": "update",
+        "privilegeDescription": "编辑管理员"
+      }
+    ],
+    "proposer": "admin"
+  },
+  {
+    "name": "ROLE_SEI_ADMIN",
+    "nickname": "系统管理员",
+    "description": "系统管理员用户，系统集成角色，不允许修改！",
+    "builtIn": true,
+    "banned": false,
+    "permissions": [
+      {
+        "resourceId": "home_management",
+        "resourceName": "首页",
+        "privilege": "read",
+        "privilegeDescription": "首页"
+      },
+      {
+        "resourceId": "school_performance_management",
+        "resourceName": "绩效管理",
+        "privilege": "read",
+        "privilegeDescription": "绩效主菜单页面"
+      },
+      {
+        "resourceId": "system_manager_management",
+        "resourceName": "用户管理",
+        "privilege": "read",
+        "privilegeDescription": "用户管理菜单页面"
+      },
+      {
+        "resourceId": "system_manager_student_management",
+        "resourceName": "用户管理",
+        "privilege": "read",
+        "privilegeDescription": "用户管理"
+      },
+      {
+        "resourceId": "system_manager_student_management",
+        "resourceName": "用户管理",
+        "privilege": "add",
+        "privilegeDescription": "新增管理员"
+      },
+      {
+        "resourceId": "system_manager_student_management",
+        "resourceName": "用户管理",
+        "privilege": "delete",
+        "privilegeDescription": "删除管理员"
+      },
+      {
+        "resourceId": "system_manager_student_management",
+        "resourceName": "用户管理",
+        "privilege": "update",
+        "privilegeDescription": "编辑管理员"
+      },
+      {
+        "resourceId": "department_management",
+        "resourceName": "实体院系管理",
+        "privilege": "read",
+        "privilegeDescription": "实体院系管理"
+      },
+      {
+        "resourceId": "system_setting_management",
+        "resourceName": "系统设置",
+        "privilege": "read",
+        "privilegeDescription": "系统设置"
+      },
+      {
+        "resourceId": "system_setting_management_dictionary",
+        "resourceName": "系统设置",
+        "privilege": "read",
+        "privilegeDescription": "字典库"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "用户管理",
+        "privilege": "read",
+        "privilegeDescription": "院系用户管理"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "院系用户管理",
+        "privilege": "add",
+        "privilegeDescription": "新增管理员"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "院系用户管理",
+        "privilege": "delete",
+        "privilegeDescription": "删除管理员"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "院系用户管理",
+        "privilege": "update",
+        "privilegeDescription": "编辑管理员"
+      }
+    ],
+    "proposer": "admin"
+  },
+  {
+    "name": "ROLE_SEI_APPROVAL_ADMIN",
+    "nickname": "审批管理员",
+    "description": "系统管理员用户，系统集成角色，不允许修改！",
+    "builtIn": true,
+    "banned": false,
+    "permissions": [
+      {
+        "resourceId": "home_management",
+        "resourceName": "首页",
+        "privilege": "read",
+        "privilegeDescription": "首页"
+      },
+      {
+        "resourceId": "recruit_student_data_management",
+        "resourceName": "招生数据",
+        "privilege": "read",
+        "privilegeDescription": "招生数据"
+      },
+      {
+        "resourceId": "recruit_student_data_management_publicize",
+        "resourceName": "招生数据",
+        "privilege": "read",
+        "privilegeDescription": "招生宣传"
+      },
+      {
+        "resourceId": "system_manager_management",
+        "resourceName": "用户管理",
+        "privilege": "read",
+        "privilegeDescription": "用户管理菜单页面"
+      },
+      {
+        "resourceId": "system_manager_student_management",
+        "resourceName": "用户管理",
+        "privilege": "read",
+        "privilegeDescription": "用户管理"
+      },
+      {
+        "resourceId": "system_manager_student_management",
+        "resourceName": "用户管理",
+        "privilege": "add",
+        "privilegeDescription": "新增管理员"
+      },
+      {
+        "resourceId": "system_manager_student_management",
+        "resourceName": "用户管理",
+        "privilege": "delete",
+        "privilegeDescription": "删除管理员"
+      },
+      {
+        "resourceId": "system_manager_student_management",
+        "resourceName": "用户管理",
+        "privilege": "update",
+        "privilegeDescription": "编辑管理员"
+      },
+      {
+        "resourceId": "department_management",
+        "resourceName": "实体院系管理",
+        "privilege": "read",
+        "privilegeDescription": "实体院系管理"
+      },
+      {
+        "resourceId": "system_setting_management",
+        "resourceName": "系统设置",
+        "privilege": "read",
+        "privilegeDescription": "系统设置"
+      },
+      {
+        "resourceId": "system_setting_management_dictionary",
+        "resourceName": "系统设置",
+        "privilege": "read",
+        "privilegeDescription": "字典库"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "用户管理",
+        "privilege": "read",
+        "privilegeDescription": "院系用户管理"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "院系用户管理",
+        "privilege": "add",
+        "privilegeDescription": "新增管理员"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "院系用户管理",
+        "privilege": "delete",
+        "privilegeDescription": "删除管理员"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "院系用户管理",
+        "privilege": "update",
+        "privilegeDescription": "编辑管理员"
+      }
+    ],
+    "proposer": "admin"
+  },
+  {
+    "name": "ROLE_SEI_STUDENT",
+    "nickname": "学生",
+    "description": "系统管理员用户，系统集成角色，不允许修改！",
+    "builtIn": true,
+    "banned": false,
+    "permissions": [
+      {
+        "resourceId": "department_home_management",
+        "resourceName": "首页",
+        "privilege": "read",
+        "privilegeDescription": "首页"
+      },
+      {
+        "resourceId": "system_manager_management",
+        "resourceName": "用户管理",
+        "privilege": "read",
+        "privilegeDescription": "用户管理菜单页面"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "用户管理",
+        "privilege": "read",
+        "privilegeDescription": "院系用户管理"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "院系用户管理",
+        "privilege": "add",
+        "privilegeDescription": "新增管理员"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "院系用户管理",
+        "privilege": "delete",
+        "privilegeDescription": "删除管理员"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "院系用户管理",
+        "privilege": "update",
+        "privilegeDescription": "编辑管理员"
+      },
+      {
+        "resourceId": "system_setting_management",
+        "resourceName": "系统设置",
+        "privilege": "read",
+        "privilegeDescription": "系统设置"
+      },
+      {
+        "resourceId": "system_setting_management_dictionary",
+        "resourceName": "系统设置",
+        "privilege": "read",
+        "privilegeDescription": "字典库"
+      }
+    ],
+    "proposer": "admin"
+  },
+  {
+    "name": "ROLE_SEI_TEACHER",
+    "nickname": "教师",
+    "description": "系统管理员用户，系统集成角色，不允许修改！",
+    "builtIn": true,
+    "banned": false,
+    "permissions": [
+      {
+        "resourceId": "department_home_management",
+        "resourceName": "首页",
+        "privilege": "read",
+        "privilegeDescription": "首页"
+      },
+      {
+        "resourceId": "system_manager_management",
+        "resourceName": "用户管理",
+        "privilege": "read",
+        "privilegeDescription": "用户管理菜单页面"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "用户管理",
+        "privilege": "read",
+        "privilegeDescription": "院系用户管理"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "院系用户管理",
+        "privilege": "add",
+        "privilegeDescription": "新增管理员"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "院系用户管理",
+        "privilege": "delete",
+        "privilegeDescription": "删除管理员"
+      },
+      {
+        "resourceId": "system_manager_department_management",
+        "resourceName": "院系用户管理",
+        "privilege": "update",
+        "privilegeDescription": "编辑管理员"
+      },
+      {
+        "resourceId": "system_setting_management",
+        "resourceName": "系统设置",
+        "privilege": "read",
+        "privilegeDescription": "系统设置"
+      },
+      {
+        "resourceId": "system_setting_management_dictionary",
+        "resourceName": "系统设置",
+        "privilege": "read",
+        "privilegeDescription": "字典库"
+      }
+    ],
+    "proposer": "admin"
+  }
+]

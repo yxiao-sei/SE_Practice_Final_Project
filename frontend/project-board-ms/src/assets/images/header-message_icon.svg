@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.667" height="24.854" viewBox="0 0 29.667 24.854">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="路径_223" data-name="路径 223" d="M7.415,21.242H4.124A2.125,2.125,0,0,1,2,19.108V7.054A2.128,2.128,0,0,1,4.124,4.92H25.3a2.124,2.124,0,0,1,2.124,2.13v3.182" transform="translate(-2 -4.92)" fill="#889199"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="路径_225" data-name="路径 225" d="M7.143,12.566a2.477,2.477,0,0,1,2.473-2.479H30.1a2.476,2.476,0,0,1,2.473,2.479V23.929a2.475,2.475,0,0,1-2.474,2.48H28.535a.827.827,0,0,0-.826.82v2.493c0,.913-.608,1.23-1.352.714l-5.122-3.56a3.088,3.088,0,0,0-1.492-.466H9.619a2.478,2.478,0,0,1-2.477-2.48V12.566Z" transform="translate(-7.142 -10.087)" fill="#889199"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <ellipse id="椭圆_162" data-name="椭圆 162" cx="1.412" cy="1.42" rx="1.412" ry="1.42" fill="#889199"/>
+    </clipPath>
+  </defs>
+  <g id="消息_2_" data-name="消息(2)" transform="translate(-2 -4.92)">
+    <g id="组_796" data-name="组 796" transform="translate(2 4.92)">
+      <g id="组_795" data-name="组 795" clip-path="url(#clip-path)">
+        <path id="路径_222" data-name="路径 222" d="M7.415,22.742H4.124A3.633,3.633,0,0,1,.5,19.108V7.054A3.633,3.633,0,0,1,4.124,3.42H25.3a3.631,3.631,0,0,1,3.624,3.63v3.182h-3V7.05a.628.628,0,0,0-.624-.63H4.124a.63.63,0,0,0-.624.634V19.108a.622.622,0,0,0,.624.634H7.415Z" transform="translate(-2 -4.92)" fill="#889199"/>
+      </g>
+    </g>
+    <g id="组_798" data-name="组 798" transform="translate(6.237 9.178)">
+      <g id="组_797" data-name="组 797" clip-path="url(#clip-path-2)">
+        <path id="路径_224" data-name="路径 224" d="M9.616,8.587H30.1a3.98,3.98,0,0,1,3.973,3.979V23.929a3.981,3.981,0,0,1-3.974,3.98h-.888v1.813a2.254,2.254,0,0,1-2.186,2.461,2.687,2.687,0,0,1-1.521-.516l-5.122-3.56a1.74,1.74,0,0,0-.636-.2H9.619a3.983,3.983,0,0,1-3.977-3.98V11.066h.294A3.98,3.98,0,0,1,9.616,8.587ZM30.1,24.909a.978.978,0,0,0,.974-.98V12.566a.977.977,0,0,0-.973-.979H9.616a.977.977,0,0,0-.973.979V23.929a.98.98,0,0,0,.977.98H19.744a4.535,4.535,0,0,1,2.346.734l4.119,2.863V27.229a2.325,2.325,0,0,1,2.326-2.32Z" transform="translate(-7.142 -10.087)" fill="#889199"/>
+      </g>
+    </g>
+    <g id="组_800" data-name="组 800" transform="translate(12.595 16.273)">
+      <g id="组_799" data-name="组 799" transform="translate(0 0)" clip-path="url(#clip-path-3)">
+        <rect id="矩形_828" data-name="矩形 828" width="11.066" height="11.08" transform="translate(-4.12 -4.12)" fill="#889199"/>
+      </g>
+    </g>
+    <g id="组_802" data-name="组 802" transform="translate(17.54 16.273)">
+      <g id="组_801" data-name="组 801" transform="translate(0 0)" clip-path="url(#clip-path-3)">
+        <rect id="矩形_829" data-name="矩形 829" width="11.066" height="11.08" transform="translate(-4.12 -4.12)" fill="#889199"/>
+      </g>
+    </g>
+    <g id="组_804" data-name="组 804" transform="translate(22.484 16.273)">
+      <g id="组_803" data-name="组 803" transform="translate(0 0)" clip-path="url(#clip-path-3)">
+        <rect id="矩形_830" data-name="矩形 830" width="11.066" height="11.08" transform="translate(-4.12 -4.12)" fill="#889199"/>
+      </g>
+    </g>
+  </g>
+</svg>

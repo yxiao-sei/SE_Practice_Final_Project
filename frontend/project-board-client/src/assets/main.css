@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+  transform: translate3d(0, 0, 0);
+  background-color: #f1f1f1;
+}
+
+#app {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.van-dialog__footer .van-button {
+  border: none;
+}

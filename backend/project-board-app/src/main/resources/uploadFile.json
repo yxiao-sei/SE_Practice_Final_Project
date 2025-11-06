@@ -1,0 +1,8 @@
+{
+  "fileNum": 3,
+  "maxFileSize": "1",
+  "fileType": ".png,.jpg,.jpeg,.xls,.xlsx,.doc,.pdf,.docx,.zip,.rar,.mpeg,.avi,.mp3",
+  "wordNumber": 150,
+  "activityNameNumber" : 50,
+  "fileSize": "3MB"
+}

@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: ecnu-gateway
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 200MB
+      max-request-size: 200MB
+server:
+  max-http-header-size: 100000
+
+management:
+  server:
+    port: -1
+  endpoints:
+    enabled-by-default: false
+    web:
+      exposure:
+        include: '*'
+  info:
+    defaults:
+      enabled: false

@@ -1,0 +1,70 @@
+[
+  {
+    "key":"publishTime",
+    "value":"yyyy-MM-dd HH:mm:ss"
+  },
+  {
+    "key":"checkDate",
+    "value":"yyyy-MM-dd HH:mm:ss"
+  },
+  {
+    "key":"paperSubmissionTime",
+    "value":"yyyy-MM-dd HH:mm:ss"
+  },
+  {
+    "key":"degreeAwardTime",
+    "value":"yyyy-MM-dd HH:mm:ss"
+  },
+  {
+    "key":"degreeDate",
+    "value":"yyyy-MM-dd HH:mm:ss"
+  },
+  {
+    "key":"applicationTime",
+    "value":"yyyy-MM-dd"
+  },
+  {
+    "key":"departureTime",
+    "value":"yyyy-MM-dd"
+  },
+  {
+    "key":"returnTime",
+    "value":"yyyy-MM-dd"
+  },
+  {
+    "key":"BYRQ",
+    "value":"yyyy-MM-dd"
+  },
+  {
+    "key":"registerDate",
+    "value":"yyyy-MM-dd"
+  },
+  {
+    "key":"checkoutTime",
+    "value":"yyyy-MM-dd"
+  },
+  {
+    "key":"applicationDate",
+    "value":"yyyy-MM-dd"
+  },
+  {
+    "key":"approvalDate",
+    "value":"yyyy-MM-dd"
+  },
+  {
+    "key":"awardTime",
+    "value":"yyyy-MM-dd HH:mm:ss"
+  },
+  {
+    "key":"awardDate",
+    "value":"yyyy-MM"
+  },
+  {
+    "key":"expectedGraduationDate",
+    "value":"yyyy-MM-dd"
+  },
+  {
+    "key":"operationTime",
+    "value":"yyyy-MM-dd"
+  }
+]

@@ -1,0 +1,229 @@
+{
+  "pageButtons": [
+    {
+      "label": "添加",
+      "command": "Add",
+      "privilege": "add",
+      "attributes": {
+        "type": "primary"
+      },
+      "isCollapse": false,
+      "resourceId": ""
+    }
+  ],
+  "tableButtons": [
+    {
+      "label": "查看详情",
+      "command": "Detail",
+      "privilege": "",
+      "attributes": {
+        "type": "info"
+      },
+      "isCollapse": false,
+      "resourceId": ""
+    },
+    {
+      "label": "编辑",
+      "command": "Edit",
+      "privilege": "",
+      "attributes": {
+        "type": "info"
+      },
+      "isCollapse": false,
+      "resourceId": ""
+    },
+    {
+      "label": "删除",
+      "command": "Delete",
+      "privilege": "delete",
+      "attributes": {
+        "size": "default",
+        "type": "danger"
+      },
+      "isCollapse": false,
+      "resourceId": ""
+    }
+  ],
+  "searchForm": [
+    {
+      "span": 3,
+      "label": "搜索课题名称",
+      "className": "",
+      "optionKey": "",
+      "paramsKey": "filters[name][$contains]",
+      "attributes": {
+        "size": "large",
+        "clearable": true
+      },
+      "elementType": "Input",
+      "defaultValue": ""
+    },
+    {
+      "span": 3,
+      "label": "搜索课题状态",
+      "className": "",
+      "options": [],
+      "paramsKey": "filters[researchStatus][$in]",
+      "storeKey": "projectStatus",
+      "attributes": {
+        "size": "large",
+        "multiple": true,
+        "clearable": true
+      },
+      "elementType": "Select",
+      "defaultValue": ""
+    },
+    {
+      "span": 3,
+      "label": "搜索课题研究方向",
+      "className": "",
+      "options": [],
+      "paramsKey": "filters[researchArea][$in]",
+      "storeKey": "metadataDirection",
+      "attributes": {
+        "size": "large",
+        "multiple": true,
+        "clearable": true
+      },
+      "elementType": "Select",
+      "defaultValue": ""
+    },
+    {
+      "span": 3,
+      "label": "搜索课题标签",
+      "className": "",
+      "options": [],
+      "paramsKey": "filters[labels][$in]",
+      "storeKey": "projectLabels",
+      "attributes": {
+        "size": "large",
+        "multiple": true,
+        "clearable": true
+      },
+      "elementType": "Select",
+      "defaultValue": ""
+    },
+    {
+      "span": 3,
+      "label": "搜索成员招募状态",
+      "className": "",
+      "options": [],
+      "paramsKey": "filters[recruitStatus][$in]",
+      "storeKey": "memberRecruitmentStatus",
+      "attributes": {
+        "size": "large",
+        "multiple": true,
+        "clearable": true
+      },
+      "elementType": "Select",
+      "defaultValue": ""
+    }
+  ],
+  "columns": [
+    {
+      "align": "center",
+      "field": "name",
+      "title": "课题名称",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "code",
+      "title": "课题编号",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "description",
+      "title": "课题介绍",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "researchStatus",
+      "title": "课题状态"
+    },
+    {
+      "align": "center",
+      "field": "leadingTeacherName",
+      "title": "课题负责老师姓名"
+    },
+    {
+      "align": "center",
+      "field": "leadingTeacherNumber",
+      "title": "课题负责老师工号",
+      "sortable": true,
+      "visible": false
+    },
+    {
+      "align": "center",
+      "field": "departmentName",
+      "title": "课题所属院系名称",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "departmentCode",
+      "title": "课题所属院系编码",
+      "visible": false,
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "beginDate",
+      "title": "课题开始日期",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "endDate",
+      "title": "课题结束日期",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "researchArea",
+      "title": "研究方向",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "researchOutcome",
+      "title": "预期成果",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "labels",
+      "title": "课题标签",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "attachments",
+      "title": "附件",
+      "min-width": 100,
+      "slots": {
+        "default": "attachment"
+      }
+    },
+    {
+      "align": "center",
+      "field": "recruitStatus",
+      "title": "课题成员招募状态",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "table_action_slot_default",
+      "slots": {
+        "default": "table_action_slot_default"
+      },
+      "title": "操作",
+      "minWidth": 250
+    }
+  ],
+  "name": "Project",
+  "defaultParams": "",
+  "apiPath": "/project-board-api/board/strapi/api/projects"
+}

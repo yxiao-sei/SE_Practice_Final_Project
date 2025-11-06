@@ -1,0 +1,18 @@
+[
+  {
+    "username":"admin",
+    "realName":"超级管理员",
+    "password":"$2a$10$DnE8F6NHu2j3Y6lg4Un.IuWhTn2VmdmiMh6ynaKJXd2ZJiFYDgY8O",
+    "userType":"SYSTEM_ADMIN",
+    "activated":true,
+    "roles": "ROLE_SYSTEM_ADMINISTRATOR"
+  },
+  {
+    "username":"20230086",
+    "realName":"肖宇",
+    "password":"$2a$10$DnE8F6NHu2j3Y6lg4Un.IuWhTn2VmdmiMh6ynaKJXd2ZJiFYDgY8O",
+    "userType":"SYSTEM_ADMIN",
+    "activated":true,
+    "roles": "ROLE_SYSTEM_ADMIN"
+  }
+]

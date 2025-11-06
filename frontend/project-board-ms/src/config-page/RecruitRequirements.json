@@ -1,0 +1,136 @@
+{
+  "pageButtons": [
+    {
+      "label": "添加",
+      "command": "Add",
+      "privilege": "add",
+      "attributes": {
+        "type": "primary"
+      },
+      "isCollapse": false,
+      "resourceId": ""
+    }
+  ],
+  "tableButtons": [
+    {
+      "label": "编辑",
+      "command": "Edit",
+      "privilege": "",
+      "attributes": {
+        "type": "info"
+      },
+      "isCollapse": false,
+      "resourceId": ""
+    },
+    {
+      "label": "删除",
+      "command": "Delete",
+      "privilege": "delete",
+      "attributes": {
+        "size": "default",
+        "type": "danger"
+      },
+      "isCollapse": false,
+      "resourceId": ""
+    }
+  ],
+  "searchForm": [
+    {
+      "span": 3,
+      "label": "搜索课题名称",
+      "className": "",
+      "optionKey": "",
+      "paramsKey": "filters[name][$contains]",
+      "attributes": {
+        "size": "large",
+        "clearable": true
+      },
+      "elementType": "Input",
+      "defaultValue": ""
+    }
+  ],
+  "columns": [
+    {
+      "align": "center",
+      "field": "projectCode",
+      "title": "所属课题编号",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "projectName",
+      "title": "所属课题名称",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "grade",
+      "title": "学生年级",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "skill",
+      "title": "所需技能"
+    },
+    {
+      "align": "center",
+      "field": "tools",
+      "title": "需掌握的工具",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "major",
+      "title": "学生专业",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "comment",
+      "title": "其他需求",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "role",
+      "title": "课题分工",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "departmentName",
+      "title": "学生院系",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "experience",
+      "title": "所需实习/研究经历",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "count",
+      "title": "招聘数量",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "state",
+      "title": "状态",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "table_action_slot_default",
+      "slots": {
+        "default": "table_action_slot_default"
+      },
+      "title": "操作",
+      "minWidth": 180
+    }
+  ],
+  "defaultParams": "",
+  "apiPath": "/project-board-api/board/strapi/api/project-recruit-requirements"
+}

@@ -1,0 +1,165 @@
+{
+  "pageButtons": [
+    {
+      "label": "添加用户",
+      "command": "Add",
+      "privilege": "add",
+      "attributes": {
+        "type": "primary"
+      },
+      "isCollapse": false,
+      "resourceId": ""
+    }
+  ],
+  "tableButtons": [
+    {
+      "label": "编辑",
+      "command": "Edit",
+      "privilege": "update",
+      "attributes": {
+        "size": "default",
+        "type": "info"
+      },
+      "isCollapse": false,
+      "resourceId": ""
+    },
+    {
+      "label": "删除",
+      "command": "Delete",
+      "privilege": "delete",
+      "attributes": {
+        "size": "default",
+        "type": "danger"
+      },
+      "isCollapse": false,
+      "resourceId": ""
+    }
+  ],
+  "searchForm": [
+    {
+      "span": 3,
+      "label": "搜索姓名",
+      "className": "",
+      "optionKey": "",
+      "paramsKey": "filters[name][$contains]",
+      "attributes": {
+        "size": "large",
+        "clearable": true
+      },
+      "elementType": "Input",
+      "defaultValue": ""
+    },
+    {
+      "span": 3,
+      "label": "搜索工号",
+      "remote": true,
+      "options": [],
+      "paramsKey": "filters[number][$contains]",
+      "attributes": {
+        "size": "large",
+        "clearable": true
+      },
+      "elementType": "Input",
+      "defaultValue": ""
+    }
+  ],
+  "columns": [
+    {
+      "type": "seq",
+      "align": "center",
+      "fixed": "left",
+      "title": "序号",
+      "width": "60",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "name",
+      "title": "姓名",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "number",
+      "title": "工号",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "xb",
+      "title": "性别",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "zymc",
+      "title": "专业",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "nj",
+      "title": "年级",
+      "sortable": true
+    },
+    {
+      "align": "center",
+      "field": "userType",
+      "title": "学生类别",
+      "sortable": true,
+      "visible": false
+    },
+    {
+      "align": "center",
+      "field": "xwlb",
+      "title": "学位类别",
+      "sortable": true,
+      "visible": false
+    },
+    {
+      "align": "center",
+      "field": "xxxs",
+      "title": "学习形式",
+      "sortable": true,
+      "visible": false
+    },
+    {
+      "align": "center",
+      "field": "xq",
+      "title": "所在校区",
+      "sortable": true,
+      "visible": false
+    },
+    {
+      "align": "center",
+      "field": "roles",
+      "title": "权限",
+      "sortable": true,
+      "formatter": [
+        "labelFormatter",
+        "Role"
+      ]
+    },
+    {
+      "align": "center",
+      "field": "authenticationMethods",
+      "title": "登录方式",
+      "formatter": [
+        "labelFormatter",
+        "AuthenticationMethods"
+      ]
+    },
+    {
+      "align": "center",
+      "field": "table_action_slot_default",
+      "fixed": "right",
+      "slots": {
+        "default": "table_action_slot_default"
+      },
+      "title": "操作"
+    }
+  ],
+  "name": "SystemUser",
+  "defaultParams": "",
+  "apiPath": "/project-board-api/board/strapi/api/administrators"
+}

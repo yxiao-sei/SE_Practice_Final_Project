@@ -1,0 +1,248 @@
+.hideXOverflow {
+  overflow-x: hidden;
+}
+
+.el-menu,
+.el-header,
+.no-select-text {
+  @include no-select-text;
+}
+
+.home-main.page-main {
+  box-shadow: none;
+  padding: 0;
+  background-color: inherit;
+  margin: 0;
+}
+
+.page-search {
+  // padding-bottom: 15px;
+  flex-shrink: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.child-page-search {
+  flex-shrink: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  // margin-bottom: 10px;
+}
+
+.search-btns {
+  display: flex !important;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.c-col:not(:last-child) {
+  margin-right: 10px;
+}
+
+.dialog-form .el-form-item {
+  font-size: 14px;
+  --el-text-color-regular: #797979;
+  line-height: 2;
+  margin-bottom: 10px;
+  .el-form-item__label {
+    line-height: 19px !important;
+  }
+  .el-form-item__error--inline {
+    margin-left: 0;
+  }
+}
+
+.tag-label {
+  color: var(--el-table-text-color);
+}
+
+.el-select {
+  --el-border-radius-base: 0;
+}
+
+.field-label {
+  display: inline-block;
+  color: var(--el-color-primary);
+  line-height: 19px;
+  margin: 2px 0;
+  width: 100%;
+  text-align: left;
+  font-size: var(--el-font-size-base);
+}
+
+.field-value {
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 100%;
+  color: #53595e;
+  word-break: break-all;
+  white-space: pre-wrap;
+  text-align: left;
+  font-size: var(--el-font-size-base);
+}
+.file-name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.vue-office-pdf {
+  height: 100%;
+}
+.common-checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+.file-dropdown.el-dropdown {
+  width: 100%;
+  vertical-align: middle;
+  padding: 0 10px;
+  box-sizing: border-box;
+  color: var(--el-table-text-color);
+  .el-dropdown-link {
+    display: flex;
+    width: 100%;
+    .file-name-tooltip {
+      flex-grow: 1;
+      display: inline-block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}
+.file-dropdown .el-dropdown-menu__item:not(.is-disabled):focus {
+  background-color: transparent !important;
+}
+
+.drop-item-filename {
+  max-width: 200px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #889199;
+}
+
+.detail-drop-item-filename {
+  max-width: 200px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.page-menu-bar {
+  margin-bottom: var(--page-padding);
+}
+
+.carousel {
+  .is-active {
+    .el-carousel__button {
+      background-color: #003fde !important;
+    }
+  }
+
+  .el-carousel__button {
+    background-color: #707070 !important;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+
+  .el-carousel__container {
+    height: 100% !important;
+  }
+}
+.summary {
+  --vxe-table-header-background-color: #fff;
+}
+
+.hyperlink {
+  color: var(--el-text-color-primary);
+  // border-bottom: 2px solid var(--el-text-color-primary);
+  cursor: pointer;
+}
+
+.content-col {
+  background: linear-gradient(to bottom, #5d80d5, #3f599a);
+  position: relative;
+  .col-collapse {
+    background-color: rgba(101, 144, 249, 0.3);
+
+    .col-collapse-title {
+      text-align: left;
+      width: 100%;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    .col-collapse-body {
+      text-align: left;
+      color: #fff;
+
+      .active {
+        background-color: rgba(101, 144, 249, 0.4);
+      }
+
+      p {
+        margin: 0px 20px 10px;
+        height: 40px;
+        padding: 0px 10px;
+        line-height: 40px;
+        font-size: 16px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+    }
+  }
+}
+
+.content-col-right {
+  background-color: rgba(137, 165, 233) !important;
+  background: linear-gradient(to bottom, #89a5e9, #5470b8);
+}
+
+.right {
+  --el-collapse-header-bg-color: #89a5e9;
+  --el-collapse-content-bg-color: rgba(2, 28, 93, 0.4);
+
+  :deep(.el-collapse-item__header.is-active) {
+    background-color: rgba(2, 28, 93, 0.4) !important;
+  }
+}
+
+.content-right {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+
+  .text {
+    text-align: left;
+    font-size: 18px;
+    margin: 10px 0px;
+  }
+}
+
+.vxe-toolbar.custom-toolbar-layout {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 0;
+  // flex-direction: row-reverse !important;
+  .vxe-buttons--wrapper ~ .vxe-tools--operate {
+    margin-left: 10px;
+  }
+}
+
+.drop-item-filename {
+  max-width: 200px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #3d4348;
+}

@@ -1,0 +1,112 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+      use-new-id-generator-mappings: false
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/ecnu?serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true&characterEncoding=utf8&characterSetResults=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull
+    username: ecnu
+    password: xxxx
+    hikari:
+      idle-timeout: 10000
+      connection-timeout: 60000
+      validation-timeout: 3000
+      login-timeout: 15
+      max-lifetime: 60000
+      maximum-pool-size: 50
+      connection-test-query: "select 1"
+
+# log4j2
+logging:
+  #  config: log4j2.xml
+  level:
+    com.cloume.ecnu.authserver: trace
+
+server:
+  port: 8398
+
+eureka:
+  client:
+    # 指定是否从注册中心获取服务(注册中心不需要开启)
+    fetch-registry: true
+    # 指定是否将服务注册到注册中心(注册中心不需要开启)
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:9300/eureka
+    #eureka client刷新本地缓存时间
+    #默认30s
+    registryFetchIntervalSeconds: 5
+    #服务过期时间配置,超过这个时间没有接收到心跳EurekaServer就会将这个实例剔除
+    #注意，EurekaServer一定要设置eureka.server.eviction-interval-timer-in-ms否则这个配置无效，这个配置一般为服务刷新时间配置的三倍
+    #默认90s
+  instance:
+    lease-expiration-duration-in-seconds: 15
+    #服务刷新时间配置，每隔这个时间会主动心跳一次
+    #默认30s
+    lease-renewal-interval-in-seconds: 5
+
+ribbon:
+  eureka:
+    enabled: true
+  #eureka客户端ribbon刷新时间
+  #默认30s
+  ServerListRefreshInterval: 5000
+
+wechat:
+  cp:
+    corpId: wwa4fbbb0bbd27110b # 企业ID 在此页面查看：https://work.weixin.qq.com/wework_admin/frame#profile）
+    appConfigs:
+      - agentId: 1000002 #（某一具体应用的AgentId，如果是要配置通讯录同步的应用，可以随便配置一个）
+        secret: LFR72gtRLz0RxFF3vJSs0uc9m0rB0F9Cljzlm_1vRd8 #（该应用的Secret）
+        token: 111 #（应用中的 “接受消息” 部分的 “接收消息服务器配置” 里的Token值）
+        aesKey: 111 #（应用中的 “接受消息” 部分的 “接收消息服务器配置” 里的EncodingAESKey值）
+    xgb-agentId: 1000002
+
+jwt:
+  signingKey: xPvShBlNpqYqewEbtrXRjY7bx2aj71yS
+
+file:
+  uploadDir: "D:\\uploadFileDir\\auth-server\\"
+
+oauth-token:
+  url: http://127.0.0.1:8398/oauth/token
+  logout-url: http://192.168.1.60:5177
+  client-id: basis-info-center
+  client-seceret: e10adc3949ba59abbe56e057f20f883e
+  grant-type: password
+  scope: read
+
+cas-auth:
+  client-id: 882ecxxx3ae4d
+  client-secret: 0cc74616cxxxxx283c64a2ac49d310d
+  base-url: https://api.ecnu.edu.cn
+  token: /oauth2/token
+  authorize-code: /oauth2/authorize?scope=ECNU-Basic&response_type=code&redirect_uri=
+  redirect-uri: https://seioa.ecnu.edu.cn/project-board/auth/oauth/result/cas
+
+client:
+  login-url: https://seioa.ecnu.edu.cn/#/login
+  cas-authorized-url: https://seioa.ecnu.edu.cn/#/home
+  wechat-approval-url: https://seioa.ecnu.edu.cn/#/index
+
+interface:
+  baseUrl: https://api.ecnu.edu.cn
+  token: /oauth2/token
+  authorizeCode: /oauth2/authorize?scope=ECNU-Basic&redirect_uri=https://seioa.ecnu.edu.cn/api/auth/oauth/result/cas&response_type=code&
+  photo: /api/v1/user/photo?userId=
+  principal: /oauth2/userinfo
+  info: /api/v1/user/info?userId=
+  grantType: client_credentials
+  grantTypeNew: authorization_code
+  refresh: refresh_token
+  clientId: 882ecxxxxe4d
+  clientSecret: 0cc74616cxxxxxxac49d310d
+
+# 院系白名单配置，支持自动创建用户
+white-list:
+  # 如果配置为 "*" 则表示所有院系都允许自动创建用户
+  # 如果配置为具体院系名称列表，则只有列表中的院系允许自动创建用户
+  enabled: true
+  departments:
+    - "*"  # 默认允许所有院系自动创建用户

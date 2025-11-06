@@ -1,0 +1,130 @@
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 30MB
+      max-request-size: 30MB
+  jpa:
+    hibernate:
+      ddl-auto: update
+      database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/sei_project_board?serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true&characterEncoding=utf8&characterSetResults=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull
+    username: project_board
+    password: xxxxx
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      idle-timeout: 10000
+      connection-timeout: 60000
+      validation-timeout: 3000
+      login-timeout: 15
+      max-lifetime: 60000
+      maximum-pool-size: 50
+      connection-test-query: "select 1"
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: ecnu-sei
+    password: xxxx
+    publisher-returns: true
+    virtual-host: approval
+
+wechat:
+  cp:
+    corpId: wwa4xx27110b # 企业ID 在此页面查看：https://work.weixin.qq.com/wework_admin/frame#profile）
+    appConfigs:
+      - agentId: 1000002 #（某一具体应用的AgentId，如果是要配置通讯录同步的应用，可以随便配置一个）
+        secret: LFR72gtRxxx #（该应用的Secret）
+        token: 111 #（应用中的 “接受消息” 部分的 “接收消息服务器配置” 里的Token值）
+        aesKey: 111 #（应用中的 “接受消息” 部分的 “接收消息服务器配置” 里的EncodingAESKey值）
+    xgb-agentId: 1000002
+
+# The OAuth2 server definition that would be used to send the authorization requests to
+authserver:
+  hostname: http://127.0.0.1
+  port: 8288
+  contextPath: auth
+  schema: http
+
+# Note that the "/user" endpoint needs to provide the principle of the logged in user (/me endpoint)
+security:
+  oauth2:
+    resource:
+      jwt:
+        key-value: Exxx
+      #      user-info-uri: ${authserver.schema}://${authserver.hostname}:${authserver.port}/${authserver.contextPath}/me
+      user-info-uri: http://127.0.0.1:8298/me
+      prefer-token-info: true
+      token-info-uri: http://127.0.0.1:8298/oauth/token
+
+ribbon:
+  eureka:
+    enabled: true
+  #eureka客户端ribbon刷新时间
+  #默认30s
+  ServerListRefreshInterval: 5000
+
+eureka:
+  client:
+    # 指定是否从注册中心获取服务(注册中心不需要开启)
+    fetch-registry: true
+    # 指定是否将服务注册到注册中心(注册中心不需要开启)
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:9300/eureka
+    #eureka client刷新本地缓存时间
+    #默认30s
+    registryFetchIntervalSeconds: 5
+  #服务过期时间配置,超过这个时间没有接收到心跳EurekaServer就会将这个实例剔除
+  #注意，EurekaServer一定要设置eureka.server.eviction-interval-timer-in-ms否则这个配置无效，这个配置一般为服务刷新时间配置的三倍
+  #默认90s
+  instance:
+    lease-expiration-duration-in-seconds: 15
+    #服务刷新时间配置，每隔这个时间会主动心跳一次
+    #默认30s
+    lease-renewal-interval-in-seconds: 5
+
+#minio文件存储
+minio:
+  endpoint: http://127.0.0.1:9004
+  accessKey: sei
+  accessValue: xxx
+  bucket: sei
+  fileType: png,jpg,jpeg,xls,xlsx,doc,pdf,docx,zip,rar,mpeg,avi,mp3
+  imgType: png,jpg,jpeg #图片后缀
+
+scheduled:
+  activityStateRefreshTime: 60000 #活动状态刷新时间
+  processStateRefreshTime: 60000 #过程状态刷新时间
+  qrCodeDeleteTime: 600000 #二维码删除时间
+  standardConditionTime: 30000 #完成情况计算时间
+  cultivatePlanStateTime: 60000 #培养方案状态刷新时间
+  cultivatePlanCaculteTime: 86400000 #培养方案计算时间
+
+templateUrl:
+  url: \src\main\resources\file\
+  fileUrl: C:\Applications\templateFile\ #临时备份文件地址，文件可删除
+
+url:
+  url: http://demosite.imwork.net/sca-client/#/
+  phoneUrl: http://demosite.imwork.net/sca-h5/#/
+  pcurl: http://demosite.imwork.net/sca-client/#/
+  h5url: http://demosite.imwork.net/sca-h5/#/
+  posterGeneratorUrl: http://localhost:8003/printer/print
+  strapi: http://127.0.0.1:1369
+  superset: http://127.0.0.1:1369
+
+interface:
+  url: https://api.ecnu.edu.cn
+  token: /oauth2/token
+  organization: /api/v1/organization/list? #组织结构列表
+  staff: /api/v1/user/info?userId= #教职工基本信息
+  student: /api/v1/user/info?userId= #学生基本信息
+  staffAppointment: /api/v1/staff/gbrz/byuserid?userId= #教职工任职情况
+  staffStudyExperience: /api/v1/staff/edu?userId= #教职工学习经历
+  personnelTalents: /api/v1/customized/zzb/rsinfo?pageSize=1&pageNum=1&ts=0 #人事人才
+  graduateStudent: /api/v1/customized/zzb/yjsinfo #研究生信息
+  undergraduate: /api/v1/customized/zzb/bksinfo #本科生信息
+  grantType: client_credentials
+  clientId: 71xxxx42a01
+  clientSecret: d183b3fbxxx9331376

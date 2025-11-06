@@ -1,0 +1,79 @@
+{
+  "ActivityView": [
+    {
+      "keyValue": "activityName",
+      "labelName": "活动名称",
+      "isVisible": "true"
+    },
+    {
+      "keyValue": "activityNum",
+      "labelName": "活动人数",
+      "isVisible": "false"
+    },
+    {
+      "keyValue": "gradeScope",
+      "labelName": "年级范围",
+      "isVisible": "true"
+    },
+    {
+      "keyValue": "departmentScope",
+      "labelName": "管理院系范围",
+      "isVisible": "true"
+    },
+    {
+      "keyValue": "zyScope",
+      "labelName": "专业范围",
+      "isVisible": "false"
+    },
+    {
+      "keyValue": "hostDepartmentName",
+      "labelName": "主办院系",
+      "isVisible": "true"
+    },
+    {
+      "keyValue": "activityState",
+      "labelName": "状态",
+      "isVisible": "true"
+    },
+    {
+      "keyValue": "applyTime",
+      "labelName": "申请时间",
+      "isVisible": "true"
+    },
+    {
+      "keyValue": "applyForm",
+      "labelName": "申请形式",
+      "isVisible": "true"
+    },
+    {
+      "keyValue": "activityModelId",
+      "labelName": "活动模块",
+      "isVisible": "true"
+    },
+    {
+      "keyValue": "conductTimeBegin",
+      "labelName": "举办起始时间",
+      "isVisible": "false"
+    },
+    {
+      "keyValue": "conductTimeEnd",
+      "labelName": "举办截止时间",
+      "isVisible": "false"
+    },
+    {
+      "keyValue": "fileId",
+      "labelName": "附件",
+      "isVisible": "false"
+    },
+    {
+      "keyValue": "signupbeginTime",
+      "labelName": "报名开始时间",
+      "isVisible": "true"
+    },
+    {
+      "keyValue": "signupendTime",
+      "labelName": "报名结束时间",
+      "isVisible": "true"
+    }
+  ]
+}
