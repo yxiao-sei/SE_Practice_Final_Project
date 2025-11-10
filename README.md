@@ -10,7 +10,7 @@
 
 > 本仓库为教学模板：各模块以示例/占位为主，学生需要在课程迭代中实现课题功能。
 
-下面是面向大三学生、详尽且教学友好的 README (Markdown)，用于在 GitHub Classroom 中说明如何克隆并在本地搭建、调试、打包运行你们的 LabLink（课题发布系统） 原型。内容覆盖前后端组件、IDE 选择、配置修改、编译打包与联调步骤。你可以直接把它放到仓库根目录的 README.md。
+下面是面向大三学生、详尽且教学友好的 README (Markdown)，用于在 GitHub Classroom 中说明如何克隆并在本地搭建、调试、打包运行 LabLink（课题发布系统） 原型。内容覆盖前后端组件、IDE 选择、配置修改、编译打包与联调步骤。
 
 ---
 
@@ -62,6 +62,45 @@ flowchart LR
 
 在后续各章节中，我们会沿着该图的链路为你提供配置、编译、部署的详细步骤。
 
+#### JWT 身份认证流程示意
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant FE as 前端客户端
+    participant GW as 网关/拦截器
+    participant AUTH as 认证中心
+    participant APP as 业务服务
+    participant DB as 数据库
+
+    rect rgb(63,81,181)
+    note over FE,AUTH: 登录阶段
+    FE->>AUTH: POST /login {username,password}
+    AUTH->>DB: 校验用户名密码
+    DB-->>AUTH: 返回用户信息
+    AUTH->>AUTH: 生成 JWT Token
+    AUTH-->>FE: 返回 Token + 用户信息
+    FE->>FE: 存储 Token (localStorage/Cookie)
+    end
+
+    rect rgb(33,150,243)
+    note over FE,APP: 业务请求阶段
+    FE->>GW: GET /api/orders (Authorization: Bearer xxx)
+    GW->>AUTH: 验证 Token 签名与有效期
+    AUTH-->>GW: 校验结果
+    alt Token 有效
+        GW->>APP: 解析用户信息并转发请求
+        APP->>DB: 查询业务数据
+        DB-->>APP: 返回结果
+        APP-->>GW: 业务响应
+        GW-->>FE: 返回数据
+    else Token 无效或过期
+        GW-->>FE: 401 Unauthorized
+        FE->>FE: 提示重新登录
+    end
+    end
+```
+
 ⸻
 
 ## 目录
@@ -109,6 +148,7 @@ flowchart LR
 
 ## 仓库结构说明（示例）
 
+```
 / (repo root)
 ├─ frontend/
 │  ├─ ms/           # Vue MS 客户端（管理端）
@@ -120,6 +160,7 @@ flowchart LR
 ├─ strapi/          # Strapi 项目（可选）
 ├─ node-red/        # Node-RED flows / 导入文件
 └─ docker-compose.yml   # （可选）快速启动 mysql、rabbitmq、strapi、node-red
+```
 
 具体路径以你仓库实际结构为准，上述是常见约定。请在开始前查看项目根目录 ls/dir，熟悉模块名称。
 
