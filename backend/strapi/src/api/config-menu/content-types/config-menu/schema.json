@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "config_menus",
+  "info": {
+    "singularName": "config-menu",
+    "pluralName": "config-menus",
+    "displayName": "config-menu"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "path": {
+      "type": "string"
+    },
+    "component": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "redirect": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "json"
+    },
+    "children": {
+      "type": "json"
+    },
+    "isRemoved": {
+      "type": "boolean"
+    },
+    "target": {
+      "type": "string"
+    },
+    "menuName": {
+      "type": "string"
+    }
+  }
+}

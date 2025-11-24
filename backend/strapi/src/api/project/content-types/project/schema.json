@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "researchStatus": {
+      "type": "string"
+    },
+    "leadingTeacherName": {
+      "type": "string"
+    },
+    "leadingTeacherNumber": {
+      "type": "string"
+    },
+    "departmentName": {
+      "type": "string"
+    },
+    "departmentCode": {
+      "type": "string"
+    },
+    "beginDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "researchArea": {
+      "type": "string"
+    },
+    "researchOutcome": {
+      "type": "string"
+    },
+    "labels": {
+      "type": "string"
+    },
+    "recruitStatus": {
+      "type": "string"
+    },
+    "isRemoved": {
+      "type": "boolean"
+    },
+    "attachments": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cert_types",
+  "info": {
+    "singularName": "cert-type",
+    "pluralName": "cert-types",
+    "displayName": "CertType"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "extention_schema": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "config_pages",
+  "info": {
+    "singularName": "config-page",
+    "pluralName": "config-pages",
+    "displayName": "config-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "pageButtons": {
+      "type": "json"
+    },
+    "tableButtons": {
+      "type": "json"
+    },
+    "tableButtonState": {
+      "type": "json"
+    },
+    "searchForm": {
+      "type": "json"
+    },
+    "columns": {
+      "type": "json"
+    },
+    "name": {
+      "type": "string"
+    },
+    "apiPath": {
+      "type": "string"
+    },
+    "children": {
+      "type": "json"
+    },
+    "defaultParams": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "administrators",
+  "info": {
+    "singularName": "administrator",
+    "pluralName": "administrators",
+    "displayName": "administrator",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "roles": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "authenticationMethods": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "departmentName": {
+      "type": "string"
+    },
+    "departmentCode": {
+      "type": "string"
+    },
+    "performanceDepartmentName": {
+      "type": "string"
+    },
+    "buinCode": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "subscribe": {
+      "type": "json"
+    },
+    "xb": {
+      "type": "string"
+    },
+    "zymc": {
+      "type": "string"
+    },
+    "userType": {
+      "type": "string"
+    },
+    "xq": {
+      "type": "string"
+    },
+    "xwlb": {
+      "type": "string"
+    },
+    "xxxs": {
+      "type": "string"
+    },
+    "nj": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "string"
+    }
+  }
+}

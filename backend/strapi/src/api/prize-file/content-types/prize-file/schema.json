@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prize_files",
+  "info": {
+    "singularName": "prize-file",
+    "pluralName": "prize-files",
+    "displayName": "PrizeFile"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "file": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

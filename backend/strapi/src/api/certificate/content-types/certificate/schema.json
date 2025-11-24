@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "certificates",
+  "info": {
+    "singularName": "certificate",
+    "pluralName": "certificates",
+    "displayName": "Certificate"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cert_level": {
+      "type": "string"
+    },
+    "cert_grade": {
+      "type": "string"
+    },
+    "cert_type_id": {
+      "type": "string"
+    },
+    "competition_id": {
+      "type": "string"
+    },
+    "file_id": {
+      "type": "string"
+    },
+    "extention_field": {
+      "type": "json"
+    },
+    "cert_time": {
+      "type": "date"
+    },
+    "cert_name": {
+      "type": "string"
+    },
+    "is_draft": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_recruit_requirements",
+  "info": {
+    "singularName": "project-recruit-requirement",
+    "pluralName": "project-recruit-requirements",
+    "displayName": "project-recruit-requirement",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "projectCode": {
+      "type": "string"
+    },
+    "projectName": {
+      "type": "string"
+    },
+    "grade": {
+      "type": "string"
+    },
+    "skill": {
+      "type": "string"
+    },
+    "tools": {
+      "type": "string"
+    },
+    "major": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "text"
+    },
+    "role": {
+      "type": "string"
+    },
+    "departmentName": {
+      "type": "string"
+    },
+    "experience": {
+      "type": "text"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "state": {
+      "type": "string"
+    }
+  }
+}

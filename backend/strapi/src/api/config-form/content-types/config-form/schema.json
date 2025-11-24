@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "config_forms",
+  "info": {
+    "singularName": "config-form",
+    "pluralName": "config-forms",
+    "displayName": "config-form",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "options": {
+      "type": "json"
+    },
+    "config": {
+      "type": "json"
+    },
+    "isRemote": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

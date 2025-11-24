@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "metadatas",
+  "info": {
+    "singularName": "metadata",
+    "pluralName": "metadatas",
+    "displayName": "metadata"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "creatorName": {
+      "type": "string"
+    },
+    "creatorNumber": {
+      "type": "string"
+    },
+    "jsonData": {
+      "type": "json"
+    },
+    "createdTime": {
+      "type": "datetime"
+    },
+    "isRemoved": {
+      "type": "boolean"
+    },
+    "isModifiable": {
+      "type": "boolean"
+    }
+  }
+}

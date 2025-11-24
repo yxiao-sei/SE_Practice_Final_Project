@@ -1,0 +1,2023 @@
+<!DOCTYPE html>
+<html class="webplus-list">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>量子与老子国际论坛·AI之道</title>
+    
+<link type="text/css" href="/_upload/tpl/15/e5/5605/template5605/static/css/system.css" rel="stylesheet">
+<link type="text/css" href="/_upload/tpl/15/e5/5605/template5605/static/css/sudyNav.css" rel="stylesheet">
+<link type="text/css" href="/_upload/tpl/15/e5/5605/template5605/static/css/datepicker.css" rel="stylesheet">
+<link type="text/css" href="/_upload/tpl/15/e5/5605/template5605/static/css/simplenews.css" rel="stylesheet">
+
+<script language="javascript" src="/_upload/tpl/15/e5/5605/template5605/static/js/jquery.min.js" sudy-wp-context="" sudy-wp-siteid="852"></script>
+<script language="javascript" src="/_upload/tpl/15/e5/5605/template5605/static/js/loadStyle.js" sys-path="/_upload/site/1/style/87/87.css" site-path="/_upload/site/03/54/852/style/1626/1626.css"></script>
+<script language="javascript" src="/_upload/tpl/15/e5/5605/template5605/static/js/grayscale.js"></script>
+<script language="javascript" src="/_upload/tpl/15/e5/5605/template5605/static/js/jquery.sudy.wp.visitcount.js"></script>
+<script type="text/javascript" src="/_upload/tpl/15/e5/5605/template5605/static/js/jquery.sudyNav.js"></script>
+<script type="text/javascript" src="/_upload/tpl/15/e5/5605/template5605/static/js/jquery.datepicker.js"></script>
+<script type="text/javascript" src="/_upload/tpl/15/e5/5605/template5605/static/js/datepicker_lang_HK.js"></script>
+<script type="text/javascript" src="/_upload/tpl/15/e5/5605/template5605/static/js/extends.js"></script>
+    <link href="https://saifs.ecnu.edu.cn/_upload/tpl/15/98/5528/template5528/favicon.ico" type="image/x-icon" rel="shortcut icon">
+    <link rel="stylesheet" href="/_upload/tpl/15/e5/5605/template5605/static/css/iconfont.css" type="text/css">
+    <link rel="stylesheet" href="/_upload/tpl/15/e5/5605/template5605/static/css/slick.css" type="text/css">
+    <link href="/_upload/tpl/15/e5/5605/template5605/static/css/slick-theme.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="/_upload/tpl/15/e5/5605/template5605/static/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/_upload/tpl/15/e5/5605/template5605/static/css/xsnh.css" type="text/css">
+    <link rel="stylesheet" href="/_upload/tpl/15/e5/5605/template5605/static/css/mobile.css" type="text/css">
+    <link rel="stylesheet" href="/_upload/tpl/15/e5/5605/template5605/static/css/media.css" type="text/css">
+    <!--[if lt IE 9]>
+	<script src="/_upload/tpl/15/98/5528/template5528/extends/libs/html5.js"></script>
+<![endif]-->
+</head>
+
+<body class="main list chy xxnh">
+    <div class="layer">
+        <div class="close">
+            <i class="iconfont icon-close"></i>
+        </div>
+        <div class="search_box" "窗口03" portletmode="search">			<!--搜索组件-->
+			<form action="/_web/_search/web3/search.html?locale=zh_CN&request_locale=zh_CN&context=&_p=YXM9ODUyJnQ9NTUyOCZkPTE5MDkzJnA9MiZmPTQ0NDU2Jm09U04mfGJubkNvbHVtblZpcnR1YWxOYW1lPXhzbmgm" method="post" target="_blank">
+				<input class="searchKeyword" placeholder="请输入搜索内容" type="text" name="keyword" id="" value="">
+				<input class="serachSubmit" type="submit" value="搜索">
+			</form>
+			<!--//复制以上代码到自定义搜索-->
+
+		</div>
+    </div>
+    <div class="namall">
+        <div class="close">
+            <i class="iconfont icon-close"></i>
+        </div>
+        <div class="namall_container">
+            <div class="inner">
+                <div class="mod clearfix">
+                    <div class="namall-left">
+                        <!--logo开始-->
+                        <div class="sitelogo">
+                            <span> <img src="/_upload/tpl/15/e5/5605/template5605/static/picture/logo.svg"> </span>
+                        </div>
+                        <!--//logo结束-->
+                    </div>
+                    <div class="namall-right clearfix">
+                        <div class="namall-menu-top clearfix" "窗口1">
+                            
+                                <div class="site-lang clearfix">
+                                    
+                                    <ul class="con clearfix">
+                                        
+                                        <li class="links i{序号值}">
+                                            <a href="/43592/list.htm" target="_self" class="site-link">走进智金</a>
+                                            
+                                            <em class="menu-switch-arrow"></em>
+                                            <ul class="sub-menu">
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/xyjs/list.htm" target="_self">学院介绍</a>
+                                                    
+                                                </li>
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/yzzc/list.htm" target="_self">院长致辞</a>
+                                                    
+                                                </li>
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/xylsh/list.htm" target="_self">学院理事会</a>
+                                                    
+                                                </li>
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/xswyh/list.htm" target="_self">学术委员会</a>
+                                                    
+                                                </li>
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/lxwm/list.htm" target="_self">联系我们</a>
+                                                    
+                                                </li>
+                                                
+                                            </ul>
+                                            
+                                        </li>
+                                        
+                                        <li class="links i{序号值}">
+                                            <a href="/43595/list.htm" target="_self" class="site-link">研究中心</a>
+                                            
+                                            <em class="menu-switch-arrow"></em>
+                                            <ul class="sub-menu">
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/rgznjryjzx/list.htm" target="_self">AI-Fin（人工智能金融）研究中心</a>
+                                                    
+                                                </li>
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/rgznzlyjzx/list.htm" target="_self">AI-PPE（人工智能伦理与治理）研究中心</a>
+                                                    
+                                                </li>
+                                                
+                                            </ul>
+                                            
+                                        </li>
+                                        
+                                        <li class="links i{序号值}">
+                                            <a href="" target="_self" class="site-link">量子与老子国际论坛·AI之道</a>
+                                            
+                                        </li>
+                                        
+                                        <li class="links i{序号值}">
+                                            <a href="/43597/list.htm" target="_self" class="site-link">新闻</a>
+                                            
+                                        </li>
+                                        
+                                        <li class="links i{序号值}">
+                                            <a href="/43958/list.htm" target="_self" class="site-link">活动</a>
+                                            
+                                            <em class="menu-switch-arrow"></em>
+                                            <ul class="sub-menu">
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/gjdkjzxl/list.htm" target="_self">常春藤国际视野系列</a>
+                                                    
+                                                </li>
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/qnxzjzxl/list.htm" target="_self">青年学者讲座系列</a>
+                                                    
+                                                </li>
+                                                
+                                            </ul>
+                                            
+                                        </li>
+                                        
+                                        <li class="links i{序号值}">
+                                            <a href="/43596/list.htm" target="_self" class="site-link">校友关系</a>
+                                            
+                                            <em class="menu-switch-arrow"></em>
+                                            <ul class="sub-menu">
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/xyzn/list.htm" target="_self">校友指南</a>
+                                                    
+                                                </li>
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/zyfz/list.htm" target="_self">职业发展</a>
+                                                    
+                                                </li>
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/xyzy/list.htm" target="_self">校友资源</a>
+                                                    
+                                                </li>
+                                                
+                                            </ul>
+                                            
+                                        </li>
+                                        
+                                        <li class="links i{序号值}">
+                                            <a href="/43959/list.htm" target="_self" class="site-link">捐赠</a>
+                                            
+                                            <em class="menu-switch-arrow"></em>
+                                            <ul class="sub-menu">
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/jzxm/list.htm" target="_self">捐赠项目</a>
+                                                    
+                                            <em class="menu-switch-arrow"></em>
+                                            <ul class="sub-menu">
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/yjjs/list.htm" target="_self">研究建设</a>
+                                                    
+                                                </li>
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/jxzx/list.htm" target="_self">奖学助学</a>
+                                                    
+                                                </li>
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/szjs/list.htm" target="_self">师资建设</a>
+                                                    
+                                                </li>
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/ztjz/list.htm" target="_self">主题捐赠</a>
+                                                    
+                                                </li>
+                                                
+                                            </ul>
+                                            
+                                                </li>
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/jzzcyzn/list.htm" target="_self">捐赠政策与指南</a>
+                                                    
+                                            <em class="menu-switch-arrow"></em>
+                                            <ul class="sub-menu">
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/jzlc/list.htm" target="_self">捐赠流程</a>
+                                                    
+                                                </li>
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/mszc/list.htm" target="_self">免税政策</a>
+                                                    
+                                                </li>
+                                                
+                                            </ul>
+                                            
+                                                </li>
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/jzbg/list.htm" target="_self">捐赠报告</a>
+                                                    
+                                                </li>
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/jzml/list.htm" target="_self">捐赠名录</a>
+                                                    
+                                                </li>
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/jzgs/list.htm" target="_self">捐赠故事</a>
+                                                    
+                                                </li>
+                                                
+                                                <li class="sub-item i2-1">
+                                                    <a class="sub-link" href="/wyjz/list.htm" target="_self">我要捐赠</a>
+                                                    
+                                                </li>
+                                                
+                                            </ul>
+                                            
+                                        </li>
+                                        
+                                    </ul>
+                                    
+                                </div>
+                            
+                        </div>
+                        <div class="searchbox">
+                            <span class="serBtn"><img src="/_upload/tpl/15/e5/5605/template5605/static/picture/namall-sous.png" alt=""></span>
+                        </div>
+                        <div class="enbox">
+                            <a class="enBtn" href="https://saifs.ecnu.edu.cn/saifsen/" target="_blank"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="namall-menu-bottom">
+                    <div class="nav wp-navi" id="nav">
+                        <div class="clearfix">
+                            <div class="wp-panel">
+                                <div class="wp-window" "窗口3">
+                                    
+                                        
+                                        <ul class="wp-menu clearfix" data-nav-aside='{"title":"导航","index":0}'>
+                                            
+                                            <li class="menu-item i{序号值}">
+                                                <a class="menu-link" href="/43592/list.htm" target="_self">走进智金<em class="menu-switch-arrow"></em></a>
+                                                
+
+                                                <ul class="sub-menu">
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/xyjs/list.htm" target="_self">学院介绍</a>
+                                                        
+                                                    </li>
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/yzzc/list.htm" target="_self">院长致辞</a>
+                                                        
+                                                    </li>
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/xylsh/list.htm" target="_self">学院理事会</a>
+                                                        
+                                                    </li>
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/xswyh/list.htm" target="_self">学术委员会</a>
+                                                        
+                                                    </li>
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/lxwm/list.htm" target="_self">联系我们</a>
+                                                        
+                                                    </li>
+                                                    
+                                                </ul>
+                                                
+                                            </li>
+                                            
+                                            <li class="menu-item i{序号值}">
+                                                <a class="menu-link" href="/43595/list.htm" target="_self">研究中心<em class="menu-switch-arrow"></em></a>
+                                                
+
+                                                <ul class="sub-menu">
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/rgznjryjzx/list.htm" target="_self">AI-Fin（人工智能金融）研究中心</a>
+                                                        
+                                                    </li>
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/rgznzlyjzx/list.htm" target="_self">AI-PPE（人工智能伦理与治理）研究中心</a>
+                                                        
+                                                    </li>
+                                                    
+                                                </ul>
+                                                
+                                            </li>
+                                            
+                                            <li class="menu-item i{序号值}">
+                                                <a class="menu-link" href="" target="_self">SAIFS学术年会<em class="menu-switch-arrow"></em></a>
+                                                
+                                            </li>
+                                            
+                                            <li class="menu-item i{序号值}">
+                                                <a class="menu-link" href="/43597/list.htm" target="_self">新闻<em class="menu-switch-arrow"></em></a>
+                                                
+                                            </li>
+                                            
+                                            <li class="menu-item i{序号值}">
+                                                <a class="menu-link" href="/43958/list.htm" target="_self">活动<em class="menu-switch-arrow"></em></a>
+                                                
+
+                                                <ul class="sub-menu">
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/gjdkjzxl/list.htm" target="_self">常春藤国际视野系列</a>
+                                                        
+                                                    </li>
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/qnxzjzxl/list.htm" target="_self">青年学者讲座系列</a>
+                                                        
+                                                    </li>
+                                                    
+                                                </ul>
+                                                
+                                            </li>
+                                            
+                                            <li class="menu-item i{序号值}">
+                                                <a class="menu-link" href="/43596/list.htm" target="_self">校友关系<em class="menu-switch-arrow"></em></a>
+                                                
+
+                                                <ul class="sub-menu">
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/xyzn/list.htm" target="_self">校友指南</a>
+                                                        
+                                                    </li>
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/zyfz/list.htm" target="_self">职业发展</a>
+                                                        
+                                                    </li>
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/xyzy/list.htm" target="_self">校友资源</a>
+                                                        
+                                                    </li>
+                                                    
+                                                </ul>
+                                                
+                                            </li>
+                                            
+                                            <li class="menu-item i{序号值}">
+                                                <a class="menu-link" href="/43959/list.htm" target="_self">捐赠<em class="menu-switch-arrow"></em></a>
+                                                
+
+                                                <ul class="sub-menu">
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/jzxm/list.htm" target="_self">捐赠项目</a>
+                                                        
+
+                                                <ul class="sub-menu">
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/yjjs/list.htm" target="_self">研究建设</a>
+                                                        
+                                                    </li>
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/jxzx/list.htm" target="_self">奖学助学</a>
+                                                        
+                                                    </li>
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/szjs/list.htm" target="_self">师资建设</a>
+                                                        
+                                                    </li>
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/ztjz/list.htm" target="_self">主题捐赠</a>
+                                                        
+                                                    </li>
+                                                    
+                                                </ul>
+                                                
+                                                    </li>
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/jzzcyzn/list.htm" target="_self">捐赠政策与指南</a>
+                                                        
+
+                                                <ul class="sub-menu">
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/jzlc/list.htm" target="_self">捐赠流程</a>
+                                                        
+                                                    </li>
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/mszc/list.htm" target="_self">免税政策</a>
+                                                        
+                                                    </li>
+                                                    
+                                                </ul>
+                                                
+                                                    </li>
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/jzbg/list.htm" target="_self">捐赠报告</a>
+                                                        
+                                                    </li>
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/jzml/list.htm" target="_self">捐赠名录</a>
+                                                        
+                                                    </li>
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/jzgs/list.htm" target="_self">捐赠故事</a>
+                                                        
+                                                    </li>
+                                                    
+                                                    <li class="sub-item">
+                                                        <a class="sub-link" href="/wyjz/list.htm" target="_self">我要捐赠</a>
+                                                        
+                                                    </li>
+                                                    
+                                                </ul>
+                                                
+                                            </li>
+                                            
+                                        </ul>
+                                        
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body_home showDiv">
+        <!--Start||head-->
+        <div class="wrapper header" id="header">
+            <div class="inner">
+                <div class="mod clearfix">
+                    <a class="navi-aside-toggle navi-aside-toggle-show"></a>
+                    <a class="navi-aside-toggle navi-aside-toggle-close"></a>
+                    <div class="head-left">
+                        <!--logo开始-->
+                        <div class="sitelogo" "窗口07" portletmode="simpleSiteAttri">
+                            <a href="/main.htm" title="返回华东师范大学上海人工智能金融学院首页"><img src="/_upload/tpl/15/e5/5605/template5605/static/picture/Tao_of_ai_logo_show.svg" class="topshow"><img src="/_upload/tpl/15/e5/5605/template5605/static/picture/Tao_of_ai_logo.svg" class="tophide"></a>
+                        </div>
+                        <!--//logo结束-->
+                    </div>
+                    <div class="head-right clearfix">
+                        <div class="head-menu-top clearfix">
+                            <div class="site-rale clearfix" "窗口08">
+                                
+                                    
+                                    <ul class="wp-menu" data-nav-aside='{"title":"导航","index":0}'>
+                                        
+                                        <li class="menu-item i{序号值}">
+                                            <a class="menu-link" href="https://wzq.ecnu.edu.cn/_s881/main.psp" target="_self">首页<em class="menu-switch-arrow"></em></a>
+                                            
+                                        </li>
+                                        
+                                        <li class="menu-item i{序号值}">
+                                            <a class="menu-link" href="#con-18" target="_self">大会议程<em class="menu-switch-arrow"></em></a>
+                                            
+                                        </li>
+                                        
+                                        <li class="menu-item i{序号值}">
+                                            <a class="menu-link" href="#con-19" target="_self">演讲嘉宾<em class="menu-switch-arrow"></em></a>
+                                            
+                                        </li>
+                                        
+                                        <li class="menu-item i{序号值}">
+                                            <a class="menu-link" href="#focuscon16" target="_self">会议地点<em class="menu-switch-arrow"></em></a>
+                                            
+                                        </li>
+                                        
+                                        <li class="menu-item i{序号值}">
+                                            <a class="menu-link"  target="_self"  id="toBottom">合作企业<em class="menu-switch-arrow"></em></a>
+                                            
+                                        </li>
+                                        
+                                        <li class="menu-item i{序号值}">
+                                            <a class="menu-link" href="#con-21" target="_self">主办单位<em class="menu-switch-arrow"></em></a>
+                                            
+                                        </li>
+                                        
+                                        <li class="menu-item i{序号值}">
+                                            <a class="menu-link" href="#con-15" target="_self">报名参会<em class="menu-switch-arrow"></em></a>
+                                            
+                                        </li>
+                                        
+                                    </ul>
+                                    
+                                
+                            </div>
+                            <div class="searchbox">
+                                <span class="serBtn"></span>
+                            </div>
+                            <div class="enbox">
+                                <a class="enBtn" href="https://saifs.ecnu.edu.cn/saifsen/" target="_blank"></a>
+                            </div>
+                            <div class="navbox">
+                                <span class="navBtn"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--aside导航-->
+            <div class="wp-navi-aside" id="wp-navi-aside">
+                <div class="aside-inner">
+                    <div class="navi-aside-wrap"></div>
+                    <div class="wap-menu">
+                        <div class="wap-info"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Start||focus-->
+    <div class="wp-wrapper" id="container-1">
+        <div class="wp-inner">
+
+
+            <div class="l-banner" "窗口84" portletmode="simpleColumnAttri">
+                
+                    <img border="0" style="margin:0 auto;" src="/_upload/tpl/15/e5/5605/template5605/static/picture/WechatIMG10.jpg" data-imgsrc="/_upload/tpl/15/98/5528/template5528/images/list_banner.jpg">
+                
+            </div>
+
+
+        </div>
+        <div class="col_news_head">
+            <div class="col_metas clearfix">
+
+                <div class="col_title" "窗口50" portletmode="simpleColumnAnchor">
+                    量子与老子国际论坛·AI之道
+                </div>
+                <div "窗口5" portletmode="simpleColumnAttri">
+                    
+                        <div class="col_second_title"></div>
+                        <div class="col_path"><span><img src="/_upload/tpl/15/e5/5605/template5605/static/picture/dingwei.png" alt=""></span><a href="/main.htm" target="_self">首页</a><span class='possplit'>&nbsp;&nbsp;</span><a href="" target="_self">量子与老子国际论坛·AI之道</a></div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End||focus-->
+    <!--Start||content-->
+    <div class="wrapper contentBox" id="l-container">
+        <div class="col_menu">
+            <div class="inner">
+                <div class="col_menu_head">
+                    <h3 class="col_name" "窗口30" portletmode="simpleColumnAnchor">
+                        <span class="col_name_text">
+                            <span class='Column_Anchor'>量子与老子国际论坛·AI之道</span>
+                        </span>
+                    </h3>
+                    <a class="column-switch"></a>
+                </div>
+                <div class="col_menu_con" "面板4">
+                    <div class="col_list" "窗口4" portletmode="simpleColumnList">
+                        
+                            
+                            <ul class="wp_listcolumn list-paddingleft-2">
+                                
+                            </ul>
+                            
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="inner">
+            <div class="mod clearfix">
+                <div class="col_news">
+                    <div class="col_news_box">
+
+                        <div class="col_news_con">
+
+                            <div class="focusBanner">
+                                <div class="con-14 mbox" "窗口14">
+                                    
+                                        <ul class="news_list clearfix">
+                                            
+                                            <li class="news n1">
+                                                <div class="news_img">
+                                                    <img src='/_upload/tpl/15/e5/5605/template5605/static/picture/e6717be3-b26f-4b37-a4bd-06f7d38f939f.png' width='320'>
+                                                </div>
+                                            </li>
+                                            
+                                        </ul>
+                                    
+                                    <div id="con-15"></div>
+                                </div>
+                                <div class="con-15 mbox" "窗口15">
+                                    
+                                        <ul class="news_list clearfix">
+                                            
+                                            <li class="news n1">
+                                                <div class="news_title"><a href='http://saifs.ecnu.edu.cn/1b/5b/c44297a596827/page.htm' target='_blank' title='参会报名'>参会报名</a></div>
+                                            </li>
+                                            
+                                            <li class="news n2">
+                                                <div class="news_title"><a href='#con-18' target='_self' title='会议议程'>会议议程</a></div>
+                                            </li>
+                                            
+                                        </ul>
+                                    
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <div class="conbox">
+
+
+
+            <div class="focusCon">
+                <div class="inner">
+
+
+
+                    <div class="con-16 mbox" "窗口16">
+                        
+                            <ul class="news_list clearfix">
+                                
+                                <li class="news n1">
+                                    <div class="news_title">量子与老子国际论坛·AI之道</div>
+                                    <div class="news_con2">
+                                        <div class="news_stitle"></div>
+                                        <div class="news_subtitle"></div>
+                                    </div>
+                                    <div class="news_con"><p style="--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; margin-bottom: 10px; padding: 0px; line-height: 1.75; font-size: 20px; color: rgb(51, 51, 51); font-family: syht, Arial, u5b8bu4f53, Tahoma, Geneva, sans-serif; text-wrap: wrap; text-align: left;"><span style="--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness: proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / .5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: "><span style="text-wrap: nowrap"></span></span></p><p style="--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; margin-bottom: 10px; padding: 0px; line-height: 1.75; font-size: 20px; color: rgb(51, 51, 51); font-family: syht, Arial, u5b8bu4f53, Tahoma, Geneva, sans-serif; text-wrap: wrap; text-align: left;"><span style="--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness: proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / .5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ">新冠疫情重击、社会剧烈分化和国际关系震荡，正迫使人们怀疑过去被视为有效的理论、方法、工具和经验，并思考如何才能更好地迎接挑战、跳出困境、创造人类文明新的未来。
+在此之际，人工智能（AI）以出人预料的方式迅速崛起。早在上世界八十年代中期，钱学森就指出，AI是人类的未来，AI属于工程技术层面，对其起支撑作用的应该是思维科学。在知识掌握上，AI能力将不断提升，人们已无法与之抗衡；人们只有在思维科学层面发力，才有能力保住人类的尊严。
+人类的思维方式和思维体系林林总总，哪些思维能够作为当代AI时代人类思考的基石，能让人举一反三、触类旁通，去应对AI时代的挑战？量子思维和老子思维，可谓其中极能代表、极能趋近“第一性原理”的思维体系。
+量子思维无疑起源于量子学说，但其已超越传统的微观物质科学层面。20世纪以来的两次量子革命极大推动了人类科技和社会发展，量子思维的测不准、叠加、跳跃等属性越来越显著地呈现出来，也愈加深刻地影响着科学技术的发展。
+量子信息论在人文社会科学领域的成功应用，都让人们能够以新的视角环顾世界，回溯过去和面对未来。因为有了量子论才有了能带理论和半导体以及后来的计算机与互联网；毫无疑问人工智能也是以此基础发展而来，这一轮的崛起更是深諳其道而引发的变革。
+老子等远古中国智者的思维及其对世界规律的认识，在古代成为中国科技发展和富强朝代社会治理的重要基石。汤川秀树等众多诺贝尔奖获得者和学术界智者崇敬老子思维，指出此思维的当代性和未来价值；玻尔甚至将太极图立为家徽并认为该思想就是对量子论最好的描绘。我们当代不缺乏对新技术、新结果、新发现的追捧和热议，而缺乏对深层次影响人类未来的“第一性思维”的探讨和畅想。
+在上述背景下，我们诚邀全球在AI、量子、老子及其相互渗透领域的智者汇聚上海，召开“量子老子国际论坛”，以“人工智能之道”为主题，基于量子思维、老子思维和它们的相互融通，讨论三方面的问题：1）AI伦理与老子思想；2）AI未来与量子科技；3）AI与未来思维教育。此次论坛的主题"Tao of AI"（人工智能之道），旨在汇聚全球顶尖的研究者、打破传统学科的界限，推动全球学术界在人工智能与人类思维的交汇点上发现新的知识领域，提升华东师范大学在人工智能、量子老子研究领域的显示度和引领力。</p><p style="--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; margin-bottom: 10px; padding: 0px; line-height: 1.75; font-size: 20px; color: rgb(51, 51, 51); font-family: syht, Arial, u5b8bu4f53, Tahoma, Geneva, sans-serif; text-wrap: wrap; text-align: left;"><span style="--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness: proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / .5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: "></span></p></div>
+                                </li>
+                                
+                            </ul>
+                        
+                    </div>
+                    <div class="con-17">
+                        <ul class="news_list clearfix">
+                                
+                            <li class="news n1">
+                                <div class="news_stitle"><span class="tit">18位</span><span class="subtitle"></span>
+                                </div>
+                                <div class="news_tit">4大洲的重磅嘉宾</div>
+
+                            </li>
+                            
+                            <li class="news n2">
+                                <div class="news_stitle"><span class="tit">3个</span><span class="subtitle"></span>
+                                </div>
+                                <div class="news_tit">演讲主题</div>
+
+                            </li>
+                            
+                            <li class="news n3">
+                                <div class="news_stitle"><span class="tit">13场</span><span class="subtitle"></span>
+                                </div>
+                                <div class="news_tit">主题报告</div>
+
+                            </li>
+                            
+                            <li class="news n4">
+                                <div class="news_stitle"><span class="tit">3场</span><span class="subtitle"></span>
+                                </div>
+                                <div class="news_tit">圆桌论坛</div>
+
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    </div>
+
+                    <div id="con-18" class="con-18 mbox" "窗口18">
+                        
+                            <ul class="news_list clearfix">
+                                
+                                <li class="news n1">
+                                    <div class="news_title">大会议程</div>
+                                    <div class="news_con clearfix"><p style="text-align: center;">
+    <google-sheets-html-origin style="font-size: medium;text-wrap: wrap"></google-sheets-html-origin>
+</p>
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" cellpadding="0" dir="ltr" data-sheets-root="1" width="0" align="center" style="margin: 0px auto;">
+    <colgroup>
+        <col width="267">
+        <col width="593">
+    </colgroup>
+    <tbody>
+        <tr style="height: 21px" class="firstRow">
+            <td rowspan="1" colspan="2" data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined7月7日上午undefined}" style="border: 1px solid rgb(0, 0, 0); overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-size: 20px; font-weight: bold; color: rgb(79, 79, 246); text-align: center; word-break: break-all;">
+                <span style="font-size: 20px;">7月7日上午</span>
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined9:00-9:20undefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <span style="font-size: 20px;"><span style="color: rgb(51, 51, 51);font-family: syht;font-size: 20px;text-align: center;text-wrap: wrap;background-color: rgb(255, 255, 255)">9:00-9:20</span></span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined开幕式undefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <span style="font-size: 20px;">开幕式</span>
+                <p style="font-weight: bold;font-size: 20px;">1.与Midjourney合作--道之舟【待定】</p>
+                <p style="font-size: 20px;">Cooperation with Midjourney – The Boat of the Tao (pending)</p>
+                <p style="font-weight: bold;font-size: 20px;">2.华东师范大学校长钱旭红 致开幕辞（阐释会议和创刊宗旨）</p>
+                <p style="font-size: 20px;">Opening Remarks by QIAN Xuhong, President of East China Normal University (an elaboration of the objective of the Conference and journal inauguration)</p>
+                <p style="font-weight: bold;font-size: 20px;">3.TAO创刊仪式</p>
+                <P style="font-size: 20px;">Inauguration Ceremony of TAO</P>
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined9:20-9:35undefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <span style="font-size: 20px;">9:20-9:35</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined致辞：呼吸之道--当代人面临的挑战undefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <span style="font-size: 20px;font-weight: bold;">致辞：呼吸之道--当代人面临的挑战</span>
+                <P style="font-size: 20px;">（Global）</P>
+                <P style="font-size: 20px;">常启德 （联合国驻华协调员）</P>
+                <P style="font-size: 20px;">Remarks: The Tao of Breathing – Challenges Facing People in the Contemporary World (Global)
+                    Siddharth Chatterjee, UN Resident Coordinator in China
+                    </P>
+
+      
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined9:35-9:50undefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <span style="font-size: 20px;">9:35-9:50</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined联合国驻华协调员 Siddarth Chatterjee\n致辞：我们的可持续发展未来undefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <span style="font-size: 20px;"></span>
+        
+                <p>
+                    <strong><span style="font-size: 20px;">主题演讲1（题目待定）</span></strong>
+                    <P><span style="font-size: 20px;">潘建伟院士（中国科学技术大学）【线上】</span></P>
+                    <p style="font-size: 20px;">Thematic Speech 1 Title pending
+                        Academician PAN Jianwei, University of Science and Technology of China (online)
+                        </p>
+        
+                </p>
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined09:50-10:05undefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <span style="font-size: 20px;">09:50-10:05</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined主题演讲1：李礼辉 教授\n中国银行原行长\n对谈人：邵怡蕾 教授undefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <span style="font-size: 20px;"></span>
+        
+                <p>
+                    <strong><span style="font-size: 20px;">主题演讲2（题目待定）</span></strong>
+        
+                </p>
+                <p>
+                    <span style="font-size: 20px;">David Holz<br>
+                        （Midjourney公司总裁）【线上】
+                        </span>
+        
+                </p><span style="font-size: 20px;">Thematic Speech 2 Title pending
+                    David Holz, Midjourney CEO
+                    </span><span style="font-size: 20px;"></span>
+      
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined10:05-10:20undefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <span style="font-size: 20px;">10:05-10:20</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined题演讲3 2062: Where is AI taking us?undefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                
+                <p>
+                    <strong><span style="font-size: 20px;">题演讲3 2062: Where is AI taking us?</span></strong>
+        
+                </p>
+                <p>
+                    <span style="font-size: 20px;">Toby Walsh（新南威尔士大学）</span>
+        
+                </p>
+                <span style="font-size: 20px;">Thematic Speech 3 2062: Where is AI taking us?
+                    Toby Walsh, University of New South Wales
+                    </span>
+      
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined10:20-10:40undefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <span style="font-size: 20px;">10:20-10:40</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined茶歇 Tea Break undefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                
+                <p>
+                    <strong><span style="font-size: 20px;">茶歇</span></strong>
+        
+                </p>
+                <p>
+                    <span style="font-size: 20px;">Tea Break</span>
+        
+                </p>
+      
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>
+    <br>
+</p>
+<p>
+    <br>
+</p>
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" cellpadding="0" dir="ltr" data-sheets-root="1" width="0" align="center" style="margin: 0px auto;font-size: 20px;">
+    <colgroup>
+        <col width="267">
+        <col width="593">
+    </colgroup>
+    <tbody>
+        <tr style="height: 21px" class="firstRow">
+            <td rowspan="1" colspan="2" data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined分论坛一：AI与未来思维教育undefined}" style="border: 1px solid rgb(0, 0, 0); overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; font-weight: bold; color: rgb(79, 79, 246); text-align: center; word-break: break-all;">
+                <p>
+                    <span style="font-size: 20px;">分论坛一：AI与未来思维教育</span>
+        
+                </p>
+                <p>
+                    <span style="font-size: 20px;">Sub-Forum I: AI and Future Education of Thinking</span>
+        
+                </p>
+      
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined10:40-10:55undefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <span style="font-size: 20px;">10:40-10:55</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined主题演讲4  Quantum Social Science as Ontological Critique: a Reflection on First Principles, Politics and Ethicsundefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <p>
+                    <span style="font-size: 20px;"></span>
+        
+                </p>
+                <p>
+                    <strong><span style="font-size: 20px;">主题演讲4  Quantum Social Science as Ontological Critique: a Reflection on First Principles, Politics and Ethics</span></strong>
+        
+                </p>
+                <p>
+                    <span style="font-size: 20px;">Laura Zanotti（弗吉尼亚理工大学）</span>
+        
+                </p>
+                <p>
+                    <span style="font-size: 20px;">Thematic Speech 4: Quantum Social Science as Ontological Critique: a Reflection on First Principles, Politics and Ethics
+                        Laura Zanotti, Virginia Polytechnic Institute and State University
+                        </span>
+        
+                </p>
+                
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined10:55-11:10undefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <span style="font-size: 20px;">10:55-11:10</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined主题演讲5  确定性的局限王怀民院士（国防科技大学）
+                undefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <span style="font-size: 20px;"></span>
+        
+                <p>
+                    <strong><span style="font-size: 20px;">主题演讲5  确定性的局限</span></strong>
+        
+                </p>
+                <p>
+                    <span style="font-size: 20px;">王怀民院士（国防科技大学）</span>
+        
+                </p><span style="font-size: 20px;">Thematic Speech 5 The Limitation of Certainty
+                    Academician WANG Huaimin, National University of Defense Technology
+                    </span>
+        
+                
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined11:10-11:25undefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <span style="font-size: 20px;">11:10-11:25</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined主题演讲6  
+                现代人应该学什么
+                万维钢（科罗拉多大学）
+                undefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <span style="font-size: 20px;"></span>
+        
+                <p>
+                    <strong><span style="font-size: 20px;">主题演讲6  现代人应该学什么 </span></strong>
+        
+                </p><span style="font-size: 20px;">万维钢（科罗拉多大学）<br></span>
+        
+                <p>
+                    <span style="font-size: 20px;">Thematic Speech 6 What shall modern people learn?
+                        WAN Weigang, University of Colorado
+                        </span>
+        
+                </p>
+                
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined11:25-11:40undefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <span style="font-size: 20px;">11:25-11:40</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined主题演讲7 AI AS Naive Intelligibility of the Aritificialundefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <strong><span style="font-size: 20px;">主题演讲7 AI AS Naive Intelligibility of the Aritificial</span></strong>
+                <p style="font-size: 20px;">Robert Braun（维也纳高等研究院）</p>
+                <P>Thematic Speech 7  AI AS Naive Intelligibility of the Aritificial
+                    Robert Braun, Institute for Advanced Studies, Vienna
+                    </P>
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined12:00-14:00 undefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <span style="font-size: 20px;">12:00-14:00 </span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined午餐和休息Lunch & Break}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <strong><span style="font-size: 20px;">午餐和休息Lunch & Break</span></strong>
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+<p style="text-align: center;">
+    <br>
+</p>
+<p>
+    <br>
+</p>
+<p>
+    <span style="font-size: 20px;"><google-sheets-html-origin style="font-size: medium;text-wrap: wrap"></google-sheets-html-origin></span>
+</p>
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" cellpadding="0" dir="ltr" data-sheets-root="1" width="0" align="center" style="margin: 0px auto;">
+    <colgroup>
+        <col width="267">
+        <col width="593">
+    </colgroup>
+    <tbody>
+        <tr style="height: 21px" class="firstRow">
+            <td rowspan="1" colspan="2" data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined分论坛二：AI未来与量子科技
+                Sub-Forum II: Future of AI and Quantum Science & Technology
+                undefined}" style="border: 1px solid rgb(0, 0, 0); overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; font-weight: bold; color: rgb(79, 79, 246); text-align: center; word-break: break-all;">
+                <p style="text-align: center;">
+                    <span style="font-size: 20px;"><strong>7月7日下午</strong></span>
+        
+                </p>
+                <p style="text-align: center;">
+                    <span style="font-size: 20px;">分论坛二：AI未来与量子科技
+                       
+                        </span>
+        
+                </p><span style="font-size: 20px;"> Sub-Forum II: Future of AI and Quantum Science & Technology</span>
+      
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined14:00-14:15undefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <span style="font-size: 20px;">14:00-14:15</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined主题演讲8  Quantum Daoism and the Social Sciencesundefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <span style="font-size: 20px;"></span>
+        
+                <p>
+                    <strong><span style="font-size: 20px;">主题演讲8  Quantum Daoism and the Social Sciences</span></strong>
+        
+                </p>
+                <p>
+                    <span style="font-size: 20px;">Karin Fierke （圣安德鲁大学）【线上】</span>
+        
+                </p>
+                <p>
+                    <span style="font-size: 20px;">Thematic Speech 8  Quantum Daoism and the Social Sciences
+                        Karin Fierke, University of St Andrews (online)
+                        </span>
+                </p>
+      
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined9:30-10:00undefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <span style="font-size: 20px;">14:15-14:30</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined主题演讲9  超快微观量子世界undefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <span style="font-size: 20px;"></span>
+        
+                <p>
+                    <strong><span style="font-size: 20px;">主题演讲9  超快微观量子世界</span></strong>
+        
+                </p><span style="font-size: 20px;">吴健 （华东师范大学）</span>
+        
+                <p>
+                    <span style="font-size: 20px;">Thematic Speech 9  Ultrafast Microscopic World of Quantum
+                        WU Jian, East China Normal University
+                        </span>
+                </p>
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined14:30-14:45undefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <span style="font-size: 20px;">14:30-14:45</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined主题演讲10  当人工智能遇见量子计算机 undefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <span style="font-size: 20px;"></span>
+        
+                <p>
+                    <strong><span style="font-size: 20px;">主题演讲10  当人工智能遇见量子计算机 </span></strong>
+        
+                </p>
+                <p>
+                    <span style="font-size: 20px;">张庆瑞（台湾中原大学）</span>
+        
+                </p>
+                <p>
+                    <span style="font-size: 20px;">Thematic Speech 10  When AI Encounters Quantum Computer
+                        Ching-Ray Chang, Chung Yuan Christian University
+                        </span>
+                </p>
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined14:45-15:00undefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <span style="font-size: 20px;">14:45-15:00</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined主题演讲11 量子波函数解释与量子科技undefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <strong><span style="font-size: 20px;">主题演讲11 量子波函数解释与量子科技</span></strong>
+                <p>龙桂鲁（清华大学）</p>
+                <p>Thematic Speech 11  Interpretation of Quantum Wavefunction  and Quantum Science & Technology
+                    LONG Guilu, Tsinghua University
+                    </p>
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+<p style="text-align: center;">
+    <br>
+</p>
+<p>
+    <br>
+</p>
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" cellpadding="0" dir="ltr" data-sheets-root="1" width="0" align="center" style="margin: 0px auto;">
+    <colgroup>
+        <col width="267">
+        <col width="593">
+    </colgroup>
+    <tbody>
+        <tr style="height: 21px" class="firstRow">
+            <td rowspan="1" colspan="2" data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined分论坛三：老子宇宙观与AI共生伦理undefined}" style="border: 1px solid rgb(0, 0, 0); overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; font-weight: bold; color: rgb(79, 79, 246); text-align: center; word-break: break-all;">
+                <p style="text-align: center;">
+                    <span style="font-size: 20px;"><strong>分论坛三：老子宇宙观与AI共生伦理</strong></span>
+        
+                </p>
+                <p style="text-align: center;">
+                    <span style="font-size: 20px;">Sub-Forum III: Lao-Zi’s View of the Universe and Symbiotic Ethics of AI</span>
+        
+                </p><span style="font-size: 20px;">主持：袁筱一 YUAN Xiaoyi</span>
+      
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined15:00-15:15undefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <span style="font-size: 20px;">15:00-15:15</span>
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined主题演讲12  Humanities in the Age of AIundefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <span style="font-size: 20px;"></span>
+        
+                <p>
+                    <strong><span style="font-size: 20px;">主题演讲12  Humanities in the Age of AI</span></strong>
+        
+                </p><span style="font-size: 20px;">郁振华（华东师范大学）</span>
+        
+                <p>
+                    <span style="font-size: 20px;">Thematic Speech 12  Humanities in the Age of AI
+                        YU Zhenhua, East China Normal University
+                        </span>
+        
+                </p>
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined15:15-15:30undefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <span style="font-size: 20px;">15:15-15:30</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined主题演讲13  人体观undefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <span style="font-size: 20px;"></span>
+        
+                <p>
+                    <strong><span style="font-size: 20px;">主题演讲13  人体观</span></strong>
+        
+                </p>
+                <p>
+                    <span style="font-size: 20px;">江雷院士（中国科学院）【待定】</span>
+        
+                </p>
+                <p>
+                    <span style="font-size: 20px;">Thematic Speech 13  Perspectives on Human Beings
+                        Academician JIANG Lei, Chinese Academy of Sciences (pending)
+                        </span>
+        
+                </p>
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined15:30-15:45undefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <span style="font-size: 20px;">15:30-15:45</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined主题演讲14  The Quantum Novel: Science and Literatureundefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <strong><span style="font-size: 20px;">主题演讲14  The Quantum Novel: Science and Literature</span></strong>
+                <p>Philippe Forest（法国南特大学）</p>
+                <p>Thematic Speech 14  The Quantum Novel: Science and Literature
+                    Philippe Forest, Nantes Université
+                    </p>
+
+      
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined15:45-16:00undefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <span style="font-size: 20px;">15:45-16:00</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined主题演讲15  The Challenges and
+                Impacts of Lau Tze and Quantum Theory on Philosophy
+                AIundefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <span style="font-size: 20px;"></span>
+        
+                <p>
+                    <strong><span style="font-size: 20px;">主题演讲15  The Challenges and
+                        Impacts of Lau Tze and Quantum Theory on Philosophy
+                        </span></strong>
+        
+                </p><span style="font-size: 20px;">苑举正（台湾大学）</span>
+        
+                <p>
+                    <span style="font-size: 20px;">Thematic Speech 15  The Challenges and
+                        Impacts of Lau Tze and Quantum Theory on Philosophy
+                        Jeu-Jeng Yuann, Taiwan University
+                        </span>
+        
+                </p>
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined16:00-16:15undefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <span style="font-size: 20px;">16:00-16:15</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined主题演讲16  量子哲学基础的新观点undefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <p>
+                    <strong><span style="font-size: 20px;">主题演讲16  量子哲学基础的新观点</span></strong>
+        
+                </p>
+                <p>
+                    <span style="font-size: 20px;">周箴（同济大学）</span>
+        
+                </p>
+                <p>
+                    <span style="font-size: 20px;">Thematic Speech 16   New Ideas on Quantum Philosophy Basics
+                        ZHOU Zhen, Tongji University
+                        </span>
+        
+                </p>
+                
+      
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined16:15-16:30undefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <span style="font-size: 20px;">16:15-16:30</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined主题演讲17  The Tao of AI. Comments on Contributions from Czechia and Slovakia undefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <p>
+                    <strong><span style="font-size: 20px;">主题演讲17  The Tao of AI. Comments on Contributions from Czechia and Slovakia </span></strong>
+        
+                </p>
+                <p>
+                    <span style="font-size: 20px;">Lubomir Dunaj（维也纳大学）</span>
+        
+                </p>
+                <p>
+                    <span style="font-size: 20px;">Thematic Speech 17   The Tao of AI. Comments on Contributions from Czechia and Slovakia
+                        Lubomir Dunaj, University of Vienna
+                        
+                        </span>
+        
+                </p>
+                
+      
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined16:30-16:45undefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <span style="font-size: 20px;">16:30-16:45</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined茶歇Tea Breakundefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <p>
+                    <strong><span style="font-size: 20px;">茶歇Tea Break</span></strong>
+        
+                </p>
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined16:45-18:00undefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <span style="font-size: 20px;">16:45-18:00</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined闭门大圆桌（滴水湖“量子与老子-当代科学观与当代人”之讨论）undefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <p>
+                    <strong><span style="font-size: 20px;">闭门大圆桌（滴水湖“量子与老子-当代科学观与当代人”之讨论）</span></strong>
+        
+                </p>
+                <p>
+                    <span style="font-size: 20px;">主持：钱旭红【待定】</span>
+        
+                </p>
+                <p>
+                    <span style="font-size: 20px;">参加者：全体发言者+部分本校教师</span>
+                </p>
+                <p>徐希定（中山大学）</p>
+                <p>Close-Door Roundtable (Discussion on “Quantum and Lao-Zi – Contemporary Perspectives on Sciences and People in the Contemporary World”, Dishui Lake)
+                    Chaired by QIAN Xuhong (pending)
+                    Joined by All speakers and part of ECNU faculty
+                    SEO Heejung, Sun Yat-sen University
+                    </p>
+                
+      
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+<p style="text-align: center;">
+    <br>
+</p>
+<p>
+    <br>
+</p>
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" cellpadding="0" dir="ltr" data-sheets-root="1" width="0" align="center" style="margin: 0px auto;">
+    <colgroup>
+        <col width="267">
+        <col width="593">
+    </colgroup>
+    <tbody>
+        <tr style="height: 21px" class="firstRow">
+            <td rowspan="1" colspan="2" data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined7月7日晚上undefined}" style="border: 1px solid rgb(0, 0, 0); overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-size: 20px; font-weight: bold; color: rgb(79, 79, 246); text-align: center; word-break: break-all;">
+                <span style="font-size: 20px;">7月7日晚上</span>
+      
+            </td>
+        </tr>
+        <tr style="height: 21px">
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined18:00-20:00undefined}" style="border-width: 1px;border-style: solid;border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0);border-image: initial;overflow: hidden;padding: 2px 3px;background-color: rgb(255, 255, 255);font-family: syht;font-size: 20px;color: rgb(51, 51, 51);text-align: center">
+                <span style="font-size: 20px;">18:00-20:00</span>
+      
+            </td>
+            <td data-sheets-value="{undefined1undefined:2,undefined2undefined:undefined“AIGC之夜”：人与AI的新生undefined}" style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204); border-image: initial; overflow: hidden; padding: 2px 3px;  background-color: rgb(255, 255, 255); font-family: syht; font-size: 20px; color: rgb(51, 51, 51); text-align: center; word-break: break-all;">
+                <p>
+                    <strong><span style="font-size: 20px;">晚宴</span></strong>
+        
+                </p>
+                <p style="text-align: center;">
+                    <span style="font-size: 20px;">Banquet</span>
+        
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>
+    <br>
+</p></div>
+
+                                </li>
+                                
+                                
+                            </ul>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="inner">
+                <div class="focuscon5">
+                    <div class="con-19 mbox" "窗口19">
+                        <div class="tt">
+                            <h3 class="tit"><span class="title" "标题">演讲嘉宾</span> </h3>
+
+                        </div>
+
+                        
+                            <ul class="news_list clearfix">
+                                
+                                <li class="news n1">
+                                    <a href="https://china.un.org/en/about/about-the-resident-coordinator-office" target="_blank">
+                                        <div class="imgbox">
+                                            <div class="news_img" style="background:url(/_upload/tpl/15/e5/5605/template5605/static/image/d2b95fa6-76f2-43c6-8599-9ef4ff5fda77.jpg) no-repeat center / cover"></div>
+                                        </div>
+                                        <div class="wzinfo">
+                                            <div class="news_title">常启德 先生</div>
+                                            <div class="news_con zc">联合国驻华协调员</div>
+                                            <div class="news_more"><span>MORE INFO</span></div>
+                                        </div>
+
+                                    </a>
+
+
+                                </li>
+                                
+                                <li class="news n2">
+                                    <a href="https://www.hust.edu.cn/info/1009/1065.htm" target="_blank">
+                                        <div class="imgbox">
+                                            <div class="news_img" style="background:url(/_upload/tpl/15/e5/5605/template5605/static/image/3ff2a111-0059-48a3-b1f2-f9ee5f8c450e.png) no-repeat center / cover"></div>
+                                        </div>
+                                        <div class="wzinfo">
+                                            <div class="news_title">丁汉 教授 </div>
+                                            <div class="news_con zc">华中科技大学；机械科学与工程学院教授；中国科学院院士</div>
+                                            <div class="news_more"><span>MORE INFO</span></div>
+                                        </div>
+
+                                    </a>
+
+
+                                </li>
+                                
+                                <li class="news n3">
+                                    <a href="https://fan.princeton.edu/" target="_blank">
+                                        <div class="imgbox">
+                                            <div class="news_img" style="background:url(/_upload/tpl/15/e5/5605/template5605/static/image/db95ec34-28b3-4f49-ac83-8e15b7c0f3f6.png) no-repeat center / cover"></div>
+                                        </div>
+                                        <div class="wzinfo">
+                                            <div class="news_title">范剑青 教授</div>
+                                            <div class="news_con zc">普林斯顿大学；Frederick L.Moore &apos;18金融教授；中国台湾“中央研究院”院士；比利时皇家科学院外籍院士</div>
+                                            <div class="news_more"><span>MORE INFO</span></div>
+                                        </div>
+
+                                    </a>
+
+
+                                </li>
+                                
+                                <li class="news n4">
+                                    <a href="https://baike.baidu.com/item/%E9%AB%98%E5%A5%87%E7%90%A6/980371" target="_blank">
+                                        <div class="imgbox">
+                                            <div class="news_img" style="background:url(/_upload/tpl/15/e5/5605/template5605/static/image/8c11af77-b5a2-457e-8fe8-a8e6b8329b98.jpg) no-repeat center / cover"></div>
+                                        </div>
+                                        <div class="wzinfo">
+                                            <div class="news_title">高奇琦 教授 </div>
+                                            <div class="news_con zc">华东政法大学政治学研究院院长、人工智能与大数据指数研究院院长</div>
+                                            <div class="news_more"><span>MORE INFO</span></div>
+                                        </div>
+
+                                    </a>
+
+
+                                </li>
+                                
+                                <li class="news n5">
+                                    <a href="https://baike.baidu.com/item/%E6%9D%8E%E7%A4%BC%E8%BE%89/2359779" target="_blank">
+                                        <div class="imgbox">
+                                            <div class="news_img" style="background:url(/_upload/tpl/15/e5/5605/template5605/static/image/2e666147-d02d-4e2c-85b5-3c505d46da64.jpg) no-repeat center / cover"></div>
+                                        </div>
+                                        <div class="wzinfo">
+                                            <div class="news_title">李礼辉 行长</div>
+                                            <div class="news_con zc">中国银行原行长</div>
+                                            <div class="news_more"><span>MORE INFO</span></div>
+                                        </div>
+
+                                    </a>
+
+
+                                </li>
+                                
+                                <li class="news n6">
+                                    <a href="https://baike.baidu.com/item/%E9%9F%A9%E5%9B%BD%E5%BC%BA/50817926" target="_blank">
+                                        <div class="imgbox">
+                                            <div class="news_img" style="background:url(/_upload/tpl/15/e5/5605/template5605/static/image/f8cb41ec-fb56-49af-be47-b6d8bd5d6972.jpg) no-repeat center / cover"></div>
+                                        </div>
+                                        <div class="wzinfo">
+                                            <div class="news_title">韩国强 行长</div>
+                                            <div class="news_con zc">中国农业银行上海市分行党委书记、行长</div>
+                                            <div class="news_more"><span>MORE INFO</span></div>
+                                        </div>
+
+                                    </a>
+
+
+                                </li>
+                                
+                                <li class="news n7">
+                                    <a href="https://saifs.ecnu.edu.cn/yzzc/list.htm" target="_blank">
+                                        <div class="imgbox">
+                                            <div class="news_img" style="background:url(/_upload/tpl/15/e5/5605/template5605/static/image/36b08cd8-d199-4c47-85ab-4984cb205681.jpg) no-repeat center / cover"></div>
+                                        </div>
+                                        <div class="wzinfo">
+                                            <div class="news_title">邵怡蕾 教授 </div>
+                                            <div class="news_con zc">华东师范大学；上海人工智能金融学院院长</div>
+                                            <div class="news_more"><span>MORE INFO</span></div>
+                                        </div>
+
+                                    </a>
+
+
+                                </li>
+                                
+                                <li class="news n8">
+                                    <a href="https://dr.ntu.edu.sg/cris/rp/rp02343" target="_blank">
+                                        <div class="imgbox">
+                                            <div class="news_img" style="background:url(/_upload/tpl/15/e5/5605/template5605/static/image/d533d70d-dc9f-4b86-ba97-a657bda1b710.jpg) no-repeat center / cover"></div>
+                                        </div>
+                                        <div class="wzinfo">
+                                            <div class="news_title">陶大程 教授 </div>
+                                            <div class="news_con zc">南洋理工大学杰出教授；澳大利亚科学院院士；欧洲科学院外籍院士</div>
+                                            <div class="news_more"><span>MORE INFO</span></div>
+                                        </div>
+
+                                    </a>
+
+
+                                </li>
+                                
+                                <li class="news n9">
+                                    <div id="con-19"></div>
+                                    <a href="https://physics.mit.edu/faculty/max-tegmark/" target="_blank">
+                                        <div class="imgbox">
+                                            <div class="news_img" style="background:url(/_upload/tpl/15/e5/5605/template5605/static/image/ddd44d0f-5c41-45be-9892-18c461463fa1.jpg) no-repeat center / cover"></div>
+                                        </div>
+                                        <div class="wzinfo">
+                                            <div class="news_title">迈克斯·泰格马克 教授</div>
+                                            <div class="news_con zc"> 麻省理工学院；未来生命研究院院长</div>
+                                            <div class="news_more"><span>MORE INFO</span></div>
+                                        </div>
+
+                                    </a>
+
+
+                                </li>
+                                
+                                <li class="news n10">
+                                    <a href="https://shanghai.nyu.edu/cn/leadership/tong-shi-jun" target="_blank">
+                                        <div class="imgbox">
+                                            <div class="news_img" style="background:url(/_upload/tpl/15/e5/5605/template5605/static/image/0c4b5864-44e1-4735-b8ee-52dce3d70de8.png) no-repeat center / cover"></div>
+                                        </div>
+                                        <div class="wzinfo">
+                                            <div class="news_title">童世骏 教授</div>
+                                            <div class="news_con zc">上海纽约大学校长；挪威科学与文学院外籍院士</div>
+                                            <div class="news_more"><span>MORE INFO</span></div>
+                                        </div>
+
+                                    </a>
+
+
+                                </li>
+                                
+                                <li class="news n11">
+                                    <a href="https://openbayes.com/" target="_blank">
+                                        <div class="imgbox">
+                                            <div class="news_img" style="background:url(/_upload/tpl/15/e5/5605/template5605/static/image/e12df403-706a-48e5-aacb-495da6a1fb5c.jpg) no-repeat center / cover"></div>
+                                        </div>
+                                        <div class="wzinfo">
+                                            <div class="news_title">王臣汉 先生</div>
+                                            <div class="news_con zc">贝式计算创始人兼CEO；CLUE基金会秘书长</div>
+                                            <div class="news_more"><span>MORE INFO</span></div>
+                                        </div>
+
+                                    </a>
+
+
+                                </li>
+                                
+                                <li class="news n12">
+                                    <a href="https://polis.ecnu.edu.cn/t/11" target="_blank">
+                                        <div class="imgbox">
+                                            <div class="news_img" style="background:url(/_upload/tpl/15/e5/5605/template5605/static/image/ef8043d3-c534-457d-b3ed-fc62bc66e7f7.jpg) no-repeat center / cover"></div>
+                                        </div>
+                                        <div class="wzinfo">
+                                            <div class="news_title">吴冠军 教授 </div>
+                                            <div class="news_con zc">华东师范大学；政治与国际关系学院院长；教育部长江学者</div>
+                                            <div class="news_more"><span>MORE INFO</span></div>
+                                        </div>
+
+                                    </a>
+
+
+                                </li>
+                                
+                                <li class="news n13">
+                                    <a href="https://ece.hkust.edu.hk/yuanxie" target="_blank">
+                                        <div class="imgbox">
+                                            <div class="news_img" style="background:url(/_upload/tpl/15/e5/5605/template5605/static/image/8e296aa0-9b3b-4fbd-bf9b-2b865ed0121b.jpg) no-repeat center / cover"></div>
+                                        </div>
+                                        <div class="wzinfo">
+                                            <div class="news_title">谢 源 教授</div>
+                                            <div class="news_con zc"> 香港科技大学讲席教授</div>
+                                            <div class="news_more"><span>MORE INFO</span></div>
+                                        </div>
+
+                                    </a>
+
+
+                                </li>
+                                
+                                <li class="news n14">
+                                    <a href="https://www.brian-tse.com/" target="_blank">
+                                        <div class="imgbox">
+                                            <div class="news_img" style="background:url(/_upload/tpl/15/e5/5605/template5605/static/image/bbf61fac-b80e-4089-bd4e-00e853970aa5.jpg) no-repeat center / cover"></div>
+                                        </div>
+                                        <div class="wzinfo">
+                                            <div class="news_title">谢旻希 先生</div>
+                                            <div class="news_con zc">安远AI CEO；牛津大学人类未来研究所人工智能治理中心研究员</div>
+                                            <div class="news_more"><span>MORE INFO</span></div>
+                                        </div>
+
+                                    </a>
+
+
+                                </li>
+                                
+                                <li class="news n15">
+                                    <a href="https://cse.hkust.edu.hk/~qyang/" target="_blank">
+                                        <div class="imgbox">
+                                            <div class="news_img" style="background:url(/_upload/tpl/15/e5/5605/template5605/static/image/81ce6cf9-2350-4a02-be38-1eb841c20b47.jpg) no-repeat center / cover"></div>
+                                        </div>
+                                        <div class="wzinfo">
+                                            <div class="news_title">杨 强 教授</div>
+                                            <div class="news_con zc">香港科技大学；加拿大工程院及加拿大皇家学院院士；微众银行首席AI官</div>
+                                            <div class="news_more"><span>MORE INFO</span></div>
+                                        </div>
+
+                                    </a>
+
+
+                                </li>
+                                
+                                <li class="news n16">
+                                    <a href="https://faculty.ecnu.edu.cn/_s35/yds/main.psp" target="_blank">
+                                        <div class="imgbox">
+                                            <div class="news_img" style="background:url(/_upload/tpl/15/e5/5605/template5605/static/image/86fedc24-4783-401b-9c04-d96a5661deb1.jpg) no-repeat center / cover"></div>
+                                        </div>
+                                        <div class="wzinfo">
+                                            <div class="news_title">殷德生 教授</div>
+                                            <div class="news_con zc">华东师范大学经济与管理学院院长；国家级人才计划领军人才入选者</div>
+                                            <div class="news_more"><span>MORE INFO</span></div>
+                                        </div>
+
+                                    </a>
+
+
+                                </li>
+                                
+                                <li class="news n17">
+                                    <a href="https://profiles.uts.edu.au/Chengqi.Zhang" target="_blank">
+                                        <div class="imgbox">
+                                            <div class="news_img" style="background:url(/_upload/tpl/15/e5/5605/template5605/static/image/1ee38918-de08-4173-8879-f139240be4ec.png) no-repeat center / cover"></div>
+                                        </div>
+                                        <div class="wzinfo">
+                                            <div class="news_title">张成奇 教授</div>
+                                            <div class="news_con zc">悉尼科技大学副校长；澳大利亚人工智能理事会理事长</div>
+                                            <div class="news_more"><span>MORE INFO</span></div>
+                                        </div>
+
+                                    </a>
+
+
+                                </li>
+                                
+                                <li class="news n18">
+                                    <a href="https://www.zhipuai.cn/" target="_blank">
+                                        <div class="imgbox">
+                                            <div class="news_img" style="background:url(/_upload/tpl/15/e5/5605/template5605/static/image/ae3f2cc5-ad45-4131-bd01-7c70eeb4ddf7.png) no-repeat center / cover"></div>
+                                        </div>
+                                        <div class="wzinfo">
+                                            <div class="news_title">张鹏 博士</div>
+                                            <div class="news_con zc">智谱AI CEO</div>
+                                            <div class="news_more"><span>MORE INFO</span></div>
+                                        </div>
+
+                                    </a>
+
+
+                                </li>
+                                
+                            </ul>
+                            
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="focuscon16">
+
+                <div class="con-29 mbox" "窗口29">
+
+                    <div class="tt">
+                        <h3 class="tit"><span class="title" "标题">会议地点</span> </h3>
+
+                    </div>
+
+                    
+                        <ul class="news_list clearfix">
+                            
+                            <li class="news n1 clearfix">
+                                <div class="news_con"><div class="news_time">时间：2024 年 7⽉ 7⽇ –&nbsp; 7月 8⽇</div><div class="news_add">地点：上海滴水湖斯南格尔精选酒店（地址：上海浦东新区水芸路128号）</div><div class="news_map"><p><span class="btn-container"><a href="https://map.baidu.com/search/%E4%B8%8A%E6%B5%B7%E6%BB%B4%E6%B0%B4%E6%B9%96%E6%96%AF%E5%8D%97%E6%A0%BC%E5%B0%94%E7%B2%BE%E9%80%89%E9%85%92%E5%BA%97/@13573733.395,3597361.42,19z?querytype=s&da_src=shareurl&wd=%E4%B8%8A%E6%B5%B7%E6%BB%B4%E6%B0%B4%E6%B9%96%E6%96%AF%E5%8D%97%E6%A0%BC%E5%B0%94%E7%B2%BE%E9%80%89%E9%85%92%E5%BA%97&c=289&src=0&pn=0&sug=0&l=19&b=(13573277.125,3597110.5;13574213.125,3597653.5)&from=webmap&biz_forward=%7B%22scaler%22:1,%22styles%22:%22pl%22%7D&device_ratio=1" target="_blank">查看地图</a></span></p></div></div>
+                            </li>
+                            
+                        </ul>
+                    
+                </div>
+
+            </div>
+
+
+            <div class="inner">
+                <div class="focuscon6">
+                    <div class="con-20 mbox" "窗口20">
+
+                        <div class="tt">
+                            <h3 class="tit"><span class="title" "标题">会议介绍</span> </h3>
+                            <div class="en">Introduce</div>
+                        </div>
+
+                        
+                            <ul class="news_list clearfix">
+                                
+                                <li class="news n1 clearfix">
+                                    <a href="/fd/f6/c44462a589302/page.htm" target="_blank">
+                                        <div class="imgbox">
+                                            <div class="news_img"><img src='/_upload/tpl/15/e5/5605/template5605/static/picture/9eb33b3c-7834-46db-9af4-3d68ef80df41.png' width='320'></div>
+                                        </div>
+                                        <div class="news_wz clearfix">
+                                            <div class="news_meta">
+
+                                                <div class="new_year">
+                                                    2024
+                                                </div>
+
+                                                <div class="new_day">
+                                                    06
+                                                </div>
+                                                <div class="new_month">
+                                                    05
+                                                </div>
+                                            </div>
+
+                                            <div class="wzcon">
+                                                <div class="news_stitle">会议介绍标题替代文字</div>
+
+                                                <div class="news_title">【测试文章】华东师范大学2023 “人工智能技术时代管理前沿与金融创新”云讲堂精彩开讲</div>
+                                                <div class="news_con">人工智能目前是计算机科学领域最热门的学科方向。本课程主要讲授和讨论人工智能的目前发展的一些前沿专题，包括演化搜索（Evolutionary Search）...</div>
+                                                <div class="news_more">查看详情</div>
+
+                                            </div>
+                                        </div>
+
+
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        
+                    </div>
+
+
+
+                </div>
+
+                <div class="focuscon7">
+                    <div class="con-21 conzz mbox zbdw" "窗口202">
+
+                        <div class="tt">
+                            <h3 class="tit"><span class="title" "标题">主办单位</span> </h3>
+
+                        </div>
+                                                    <ul class="news_list clearfix">
+                                
+                                <li class="news n1">
+                                    <div class="imgbox">
+                                        <div class="news_img"><img src='/_upload/tpl/15/e5/5605/template5605/static/picture/95d7661f-81b2-4251-83e3-bac7514e7e53.png' width='320'></div>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        
+                    </div>
+
+                    <div class="con-21 conzz mbox cbdw" "窗口201">
+
+                        <div class="tt">
+                            <h3 class="tit"><span class="title" "标题">承办单位</span> </h3>
+
+                        </div>
+                                                    <ul class="news_list clearfix">
+                                
+                                <li class="news n1">
+                                    <div class="imgbox">
+                                        <div class="news_img"><img src='/_upload/tpl/15/e5/5605/template5605/static/picture/cd163625-b8dd-4bff-8e5d-b3c293e987e7.png' width='320'></div>
+                                    </div>
+                                </li>
+                                
+                                <li class="news n2">
+                                    <div class="imgbox">
+                                        <div class="news_img"><img src='/_upload/tpl/15/e5/5605/template5605/static/picture/2b8f645a-b8a4-4beb-99d0-1704e875bead.png' width='320'></div>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        
+                    </div>
+
+                    <div class="con-21 conzz mbox djhz" "窗口203">
+
+                        <div class="tt">
+                            <h3 class="tit"><span class="title" "标题">独家会议合作单位</span> </h3>
+
+                        </div>
+                                                    <ul class="news_list clearfix">
+                                
+                                <li class="news n1">
+                                    <div class="imgbox">
+                                        <div class="news_img"><img src='/_upload/tpl/15/e5/5605/template5605/static/picture/a443e79a-58be-4771-9ec8-7e879a14e190.png' width='320'></div>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        
+                    </div> 
+
+                    <div class="con-22  mbox xbdw" "窗口22" id="con-22">
+                        <div class="tt">
+                            <h3 class="tit"><span class="title" "标题">协办单位和支持单位</span> </h3>
+
+                        </div>
+                        
+                            <ul class="news_list clearfix">
+                                
+                                <li class="news n1">
+                                    <div class="news_con"><p style="text-align: center; line-height: 2em;"><span style="font-size: 20px;">协办单位：华东师范大学软件工程学院</span></p><p style="text-align: center; line-height: 2em;"><span style="font-size: 20px;">支持单位：上海张江（集团）有限公司</span></p><p><br></p></div>
+                                </li>
+                                
+                            </ul>
+                        
+                    </div>
+                    <div class="con-21 conzz hzqy mbox" "窗口21">
+
+                        <div class="tt">
+                             <div id="focuscon16"></div>
+                            <h3 class="tit"><span class="title" "标题">合作企业</span> </h3>
+
+                        </div>
+                        
+                            <ul class="news_list clearfix">
+                                
+                                <li class="news n1">
+                                    <div class="imgbox">
+                                        <div class="news_img"><img src='/_upload/tpl/15/e5/5605/template5605/static/picture/302abee7-5255-4555-b4af-16ae4e130ed4.png' width='320'></div>
+                                    </div>
+                                </li>
+                                
+                                <li class="news n2">
+                                    <div class="imgbox">
+                                        <div class="news_img"><img src='/_upload/tpl/15/e5/5605/template5605/static/picture/2507c4d5-3811-4699-982d-0adbb38c9a90.png' width='320'></div>
+                                    </div>
+                                </li>
+                                
+                                <li class="news n3">
+                                    <div class="imgbox">
+                                        <div class="news_img"><img src='/_upload/tpl/15/e5/5605/template5605/static/picture/1446c246-fd43-4e87-bebc-f06896fea524.png' width='320'></div>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--End||content-->
+    <!--Start||footer-->
+    <div class="wrapper footer" id="footer">
+        <div class="inner">
+            <div class="mod clearfix">
+                <div id="con-21"></div>
+                <div class="foot-bottom">
+                    <p class="copyright"><span>Copyright © 2024 华东师范大学量子与老子国际论坛·AI之道. </span><span style="font-style: italic;">All rights reserved.</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End||footer-->
+</body>
+
+<script type="text/javascript" src="/_upload/tpl/15/e5/5605/template5605/static/js/comcus.js"></script>
+<script type="text/javascript" src="/_upload/tpl/15/e5/5605/template5605/static/js/app.js"></script>
+<script type="text/javascript" src="/_upload/tpl/15/e5/5605/template5605/static/js/list.js"></script>
+<script type="text/javascript" src="/_upload/tpl/15/e5/5605/template5605/static/js/slick.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        // 初始化SDAPP
+        new SDAPP({
+            "menu": {
+                type: "aside"
+            }
+
+
+
+        });
+
+ document.getElementById('toBottom').addEventListener('click', function(event) {
+    event.preventDefault(); // 阻止链接默认行为
+
+    // 获取固定头部元素的高度
+    const headerHeight = document.getElementById('header').offsetHeight;
+
+    // 目标滚动位置：页面底部减去固定头部的高度
+    const targetScroll = document.documentElement.scrollHeight - window.innerHeight;
+
+    // 设置滚动的总时间（2秒）
+    const duration = 2000;
+
+    // 获取当前滚动位置
+    let start = 0;
+
+    // 开始滚动动画的时间
+    let startTime = null;
+
+    // 缓动函数
+    function easeInOutQuad(t) { 
+        return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+    }
+
+    // 滚动动画
+    function animateScroll(timestamp) {
+        if (!startTime) startTime = timestamp;
+        const elapsed = timestamp - startTime;
+        
+        // 计算当前时间与开始时间的比例
+        const progress = elapsed / duration;
+        
+        // 使用缓动函数创建更平滑的运动效果
+        const ease = easeInOutQuad(progress);
+        
+        // 更新滚动位置
+        window.scrollTo(0, start + (targetScroll - start) * ease);
+        
+        // 请求下一帧动画，如果时间未到则继续动画
+        if (elapsed < duration) {
+            requestAnimationFrame(animateScroll);
+        } else {
+            // 确保最终位置正确
+            window.scrollTo(0, targetScroll);
+        }
+    }
+    
+    // 开始滚动动画
+    requestAnimationFrame(animateScroll);
+});
+
+
+        $('a[href*=#],area[href*=#]').click(function () {
+            $('html').animate({
+                scrollTop: 0
+            },
+                0);
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var $target = $(this.hash);
+                $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
+                if ($target.length) {
+
+                    var targetOffset = $target.offset().top;
+
+                    $('html').animate({
+                        scrollTop: targetOffset / 1.26
+                    },
+                        1000);
+                    return false;
+                }
+            }
+        });
+
+
+
+
+
+        function isElementAtTop($element) {
+            var elementTop = $element.offset().top;
+            var scrollTop = $(window).scrollTop();
+            return elementTop < 0;
+        }
+        if (isElementAtTop($('.l-banner'))) {
+
+            $('.header').addClass('notop')
+
+        } else {
+            $('.header').removeClass('notop')
+        }
+        // 使用方法：
+        $(window).scroll(function () {
+            if (isElementAtTop($('.l-banner'))) {
+
+                $('.header').addClass('notop')
+
+            } else {
+                $('.header').removeClass('notop')
+            }
+        });
+
+
+
+        let arr1 = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12']
+        let arr2 = ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月']
+        arr1.forEach(function (item, index) {
+
+            if ($('.xxnh .con-20 .news_wz .news_meta .new_month').text().trim() == item) {
+                $('.xxnh .con-20 .news_wz .news_meta .new_month').text(arr2[index])
+
+            }
+        })
+
+
+
+
+        if ($('.l-banner img').attr('src').trim() == '') {
+
+
+            $('.l-banner img').attr('src', $('.l-banner img').attr('data-imgsrc'))
+        }
+    });
+</script>
+<script type="text/javascript">
+    $(function () {
+        $(".zc").each(function () {
+            var arr = $(this).html().split("；")
+            var html = ""
+            for (var i = 0; i < arr.length; i++) {
+                html += arr[i] + "<br>"
+            }
+            $(this).html(html)
+        })
+    });
+</script>
+
+</html>
+ <img src="https://saifs.ecnu.edu.cn/_visitcount?siteId=852&type=2&columnId=44456" style="display:none" width="0" height="0">

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subscribe_settings",
+  "info": {
+    "singularName": "subscribe-setting",
+    "pluralName": "subscribe-settings",
+    "displayName": "subscribe-setting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "number": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "messageChannel": {
+      "type": "string",
+      "default": "wework"
+    },
+    "messageOn": {
+      "type": "boolean",
+      "default": true
+    },
+    "messageFrequency": {
+      "type": "string"
+    },
+    "subscribeTopics": {
+      "type": "json"
+    }
+  }
+}

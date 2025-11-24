@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_recruit_appointments",
+  "info": {
+    "singularName": "project-recruit-appointment",
+    "pluralName": "project-recruit-appointments",
+    "displayName": "project-recruit-appointment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "appointmentDate": {
+      "type": "date"
+    },
+    "comment": {
+      "type": "string"
+    },
+    "appointmentTime": {
+      "type": "string"
+    },
+    "campus": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "projectName": {
+      "type": "string"
+    },
+    "projectCode": {
+      "type": "string"
+    },
+    "studentName": {
+      "type": "string"
+    },
+    "studentNumber": {
+      "type": "string"
+    },
+    "projectRescuitRole": {
+      "type": "string"
+    },
+    "projectRescuitRoleId": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "leadingTeacherName": {
+      "type": "string"
+    },
+    "leadingTeacherNumber": {
+      "type": "string"
+    }
+  }
+}

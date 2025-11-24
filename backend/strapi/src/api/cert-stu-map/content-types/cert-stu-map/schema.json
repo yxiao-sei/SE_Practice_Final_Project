@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cert_stu_maps",
+  "info": {
+    "singularName": "cert-stu-map",
+    "pluralName": "cert-stu-maps",
+    "displayName": "cert_stu_map"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cert_id": {
+      "type": "string"
+    },
+    "work_id": {
+      "type": "string"
+    },
+    "work_type": {
+      "type": "string"
+    },
+    "character_type": {
+      "type": "string"
+    }
+  }
+}

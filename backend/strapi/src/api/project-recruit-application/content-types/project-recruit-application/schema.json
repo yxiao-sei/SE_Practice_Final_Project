@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_recruit_applications",
+  "info": {
+    "singularName": "project-recruit-application",
+    "pluralName": "project-recruit-applications",
+    "displayName": "project-recruit-application",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "studentNumber": {
+      "type": "string"
+    },
+    "studentName": {
+      "type": "string"
+    },
+    "projectName": {
+      "type": "string"
+    },
+    "projectCode": {
+      "type": "string"
+    },
+    "projectRescuitRole": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "selfRecommendContent": {
+      "type": "text"
+    },
+    "studentTelephone": {
+      "type": "string",
+      "default": " "
+    },
+    "studentEmail": {
+      "type": "string",
+      "default": " "
+    },
+    "approvalMessage": {
+      "type": "string",
+      "default": " "
+    },
+    "projectRescuitRoleId": {
+      "type": "biginteger"
+    },
+    "attachments": {
+      "type": "json"
+    },
+    "leadingTeacherName": {
+      "type": "string"
+    },
+    "leadingTeacherNumber": {
+      "type": "string"
+    }
+  }
+}
